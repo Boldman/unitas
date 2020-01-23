@@ -1,0 +1,7 @@
+#Ignore file for nixos configs
+*.bak
+./keys
+hardware-configuration.nix
+configuration.nix
+*.default
+*.zip
