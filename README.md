@@ -2,7 +2,7 @@
 This repo in my personal [monorepo][] containing my machine and user configurations.
 This project in managed by a [Nix][] based tool-chain.
 
-Inspired by [Veritas][] made by davidtwco and Luke Smith's [voidrice][] and [LARBS][].
+Inspired by [Veritas][] made by davidtwco and [Luke Smith][]'s [voidrice][] and [LARBS][].
 
 # Structure
 The structure of this repository is described below:
@@ -30,3 +30,4 @@ This project is developed by Jacob Boldman.
 [Veritas]: https://github.com/davidtwco/veritas
 [voidrice]: https://github.com/LukeSmithxyz/voidrice
 [LARBS]: https://github.com/LukeSmithxyz/LARBS
+[Luke Smith]: https://lukesmith.xyz

@@ -31,19 +31,39 @@ in
       bars =[];
       keybindings = {
         # Open terminal. should remove for ./sxhkd.nix
-        "${modifier}+Return" = "exec i3-sensible-terminal";
+        "${modifier}+Return"        = "exec i3-sensible-terminal";
         # Open application launcher.
-        "${modifier}+p" = "exec ${pkgs.rofi}/bin/rofi -show drun";
+        "${modifier}+p"             = "exec ${pkgs.rofi}/bin/rofi -show drun";
         # Switch workspaces
-        "${modifier}+1" = "workspace ${workspaces.one}";
-        "${modifier}+2" = "workspace ${workspaces.two}";
-        "${modifier}+3" = "workspace ${workspaces.three}";
-        "${modifier}+4" = "workspace ${workspaces.four}";
-        "${modifier}+5" = "workspace ${workspaces.five}";
-        "${modifier}+6" = "workspace ${workspaces.six}";
-        "${modifier}+7" = "workspace ${workspaces.seven}";
-        "${modifier}+8" = "workspace ${workspaces.eight}";
-        "${modifier}+9" = "workspace ${workspaces.nine}";
+        "${modifier}+1"             = "workspace ${workspaces.one}";
+        "${modifier}+2"             = "workspace ${workspaces.two}";
+        "${modifier}+3"             = "workspace ${workspaces.three}";
+        "${modifier}+4"             = "workspace ${workspaces.four}";
+        "${modifier}+5"             = "workspace ${workspaces.five}";
+        "${modifier}+6"             = "workspace ${workspaces.six}";
+        "${modifier}+7"             = "workspace ${workspaces.seven}";
+        "${modifier}+8"             = "workspace ${workspaces.eight}";
+        "${modifier}+9"             = "workspace ${workspaces.nine}";
+        # Move containers between workspaces.
+        "${modifier}+Shift+1"= "move container to workspace ${workspaces.one}";
+        "${modifier}+Shift+2"= "move container to workspace ${workspaces.two}";
+        "${modifier}+Shift+3"= "move container to workspace ${workspaces.three}";
+        "${modifier}+Shift+4"= "move container to workspace ${workspaces.four}";
+        "${modifier}+Shift+5"= "move container to workspace ${workspaces.five}";
+        "${modifier}+Shift+6"= "move container to workspace ${workspaces.six}";
+        "${modifier}+Shift+7"= "move container to workspace ${workspaces.seven}";
+        "${modifier}+Shift+8"= "move container to workspace ${workspaces.eight}";
+        "${modifier}+Shift+9"= "move container to workspace ${workspaces.nine}";
+        # Switch into resize mode.
+        "${modifier}+r"= "mode resize";
+        # Switch between layouts.
+        "${modifier}+o"             = "layout toggle split";
+        "${modifier}+i"             = "layout tabbed";
+        "${modifier}+u"             = "layout stacking";
+        "${modifier}+f"             = "fullscreen toggle";
+        "${modifier}+Shift+space"   = "floating toggle";
+        "${modifier}+n"             = "split v";
+        "${modifier}+m"             = "split h";
 
         "${modifier}+Shift+q" = "kill";
       };
