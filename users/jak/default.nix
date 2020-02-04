@@ -24,28 +24,38 @@ in
     programs.fish.enable = true;
 
     #Create user account.
-    users.users.jak = {
-      description = cfg.name;
-      extraGroups = [
-        "audio"
-        "disk"
-        "docker"
-        "input"
-        "libvirtd"
-        "lxd"
-        "plugdev"
-        "systemd-journal"
-        "vboxusers"
-        "video"
-        "wheel"
-      ];
-      uid = 1000;
-      shell = pkgs.unstable.fish;
-      hashedPassword = "$6$qs0Z2zH.zpwMRu$.tloNjneyofJOJ0ple./d8sb7.CLve1NYjIt1LeSQJsYyzBxcD5l3/Xdnr5.JmEe/44BdOC31Kvl9v1PYYPpT/";
-      isNormalUser = true;
-      openssh.authorizedKeys.keys = [
-        (builtins.readFile ./public_keys/id_ed25519.pub)
-      ];
+    users = {
+      motd = with config; ''
+        Welcome to ${networking.hostName}
+        - This machine is managed by NixOS
+        - All changes are futile
+        OS:      NixOS ${system.nixos.release} (${system.nixos.codeName})
+        Version: ${system.nixos.version}
+        Kernel:  ${boot.kernelPackages.kernel.version}
+      '';
+      users.jak = {
+        description = cfg.name;
+        extraGroups = [
+          "audio"
+          "disk"
+          "docker"
+          "input"
+          "libvirtd"
+          "lxd"
+          "plugdev"
+          "systemd-journal"
+          "vboxusers"
+          "video"
+          "wheel"
+        ];
+        uid = 1000;
+        shell = pkgs.unstable.fish;
+        hashedPassword = "$6$qs0Z2zH.zpwMRu$.tloNjneyofJOJ0ple./d8sb7.CLve1NYjIt1LeSQJsYyzBxcD5l3/Xdnr5.JmEe/44BdOC31Kvl9v1PYYPpT/";
+        isNormalUser = true;
+        openssh.authorizedKeys.keys = [
+          (builtins.readFile ./public_keys/id_ed25519.pub)
+        ];
+      };
     };
   };
 }
