@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./alacritty.nix
+#    ./alacritty.nix
     ./compton.nix
     ./direnv.nix
     ./dunst.nix
@@ -24,6 +24,7 @@
 #    ./starship.nix
     ./sxhkd.nix
     ./taskwarrior.nix
+    ./termite.nix
     ./tmux.nix
     ./xsession.nix
   ];

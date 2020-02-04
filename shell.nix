@@ -1,9 +1,9 @@
-with import <nixpkgs> { };
+with import <nixpkgs> {};
 
 stdenv.mkDerivation {
-  name = "dev";
+  name = "unitas-config";
   buildInputs = [
   	nixfmt
   ];
-  shellHook = "";
+  shellHook = "echo ${stdenv.mkDerivation.name}";
 }

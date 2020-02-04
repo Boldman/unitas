@@ -3,6 +3,9 @@
 # This file contains the configuration for direnv.
 
 {
+  #Qiuets command line output from direnv
+  home.sessionVariables = { "DIRENV_LOG_FORMAT" = ""; };
+
   programs.direnv = {
     enable = true;
     enableFishIntegration = true;
