@@ -658,5 +658,17 @@
         "type": "tarball",
         "url": "https://github.com/tpope/vim-vinegar/archive/fcce70f1403ba4101668a4c960c577bddbd00f06.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "vimwiki": {
+        "branch": "master",
+        "description": "Personal Wiki for Vim",
+        "homepage": "http://vimwiki.github.io/",
+        "owner": "vimwiki",
+        "repo": "vimwiki",
+        "rev": "64c9f3d36d632b1657616c06ea8f08f14cf6438d",
+        "sha256": "0wwfl0bafwh9p8lzic75d0nl6v5dnpfid7fbiffr0i72agp0gcq7",
+        "type": "tarball",
+        "url": "https://github.com/vimwiki/vimwiki/archive/64c9f3d36d632b1657616c06ea8f08f14cf6438d.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

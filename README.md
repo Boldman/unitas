@@ -8,6 +8,7 @@ The structure of this repository is described below:
 Path                        | Description
 ----                        | -------------
 `./hosts`                   | top-level expressions specific to individual machines
+`./deployments`             | network modules manged by Nixops
 `./packages`                | custom packages
 `./profiles`                | common configurations shared between hosts
 `./modules`                 | re-usable configuration modules
@@ -16,7 +17,7 @@ Path                        | Description
 `./users/jak/default.nix`   | module that creates user `jak` and instantiates home-manager config
 `./users/jak/home`          | home-manager configuration and dotfiles
 
-#Author
+# Author
 This project is developed by Jacob Boldman.
 
 

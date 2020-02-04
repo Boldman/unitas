@@ -411,7 +411,10 @@ in
           let g:signify_cursorhold_normal = 0
           let g:signify_cursorhold_insert = 0
           " Enable automatic disassembly of binary SPIR-V.
-          let g:spirv_enable_autoassemble = 1
+          ""let g:spirv_enable_autoassemble = 1
+          "" Enable vimwiki and use markdown
+          let g:vimwiki_list = [{'path': '~/unitas/',
+                                \ 'syntax': 'markdown', 'ext': '.md'}]
           " Fix completion bug in some versions of Vim.
           set completeopt=menu,menuone,preview,noselect,noinsert
           " Use deoplete.
@@ -665,7 +668,7 @@ in
           let s:p.tabline.tabsel = [ [s:fg, s:bg, s:c_fg, s:c_bg] ]
           let s:p.tabline.middle = s:p.tabline.left
           let s:p.tabline.right = [ [s:white, s:bg, s:c_white, s:c_bg], [s:fg, s:bg, s:c_fg, s:c_bg] ]
-          let g:lightline#colorscheme#jaktwco#palette = s:p
+          let g:lightline#colorscheme#jak#palette = s:p
           " Map %% to the current opened file's path.
           cnoremap %% <C-R>=fnameescape(expand('%:h')).'/'<CR>
           " Map helpful commands for editing files in that directory.
@@ -748,7 +751,7 @@ in
             # Rust (included in Polyglot, but explicitly disabled so that we can use newer versions).
             (pkgs.vimUtils.buildVimPlugin { name = "rust.vim"; src = sources."rust.vim"; })
             # Other languages
-            (pkgs.vimUtils.buildVimPlugin { name = "vim-hocon"; src = sources.vim-hocon; })
+            #(pkgs.vimUtils.buildVimPlugin { name = "vim-hocon"; src = sources.vim-hocon; })
             (pkgs.vimUtils.buildVimPlugin { name = "vim-pandoc"; src = sources.vim-pandoc; })
             (
               pkgs.vimUtils.buildVimPlugin {
@@ -756,7 +759,7 @@ in
                 src = sources.vim-pandoc-syntax;
               }
             )
-            (pkgs.vimUtils.buildVimPlugin { name = "vim-spirv"; src = sources.vim-spirv; })
+            #(pkgs.vimUtils.buildVimPlugin { name = "vim-spirv"; src = sources.vim-spirv; })
             # Generate ctags for projects.
             (pkgs.vimUtils.buildVimPlugin { name = "vim-gutentags"; src = sources.vim-gutentags; })
             # Auto-adds `end` where appropriate.
@@ -850,7 +853,7 @@ in
             )
             # Handy bracket matchings.
             (pkgs.vimUtils.buildVimPlugin { name = "vim-unimpaired"; src = sources.vim-unimpaired; })
-            # Commands for interactig with surroundings ("", '', {}, etc).
+            # Commands for interacting with surroundings ("", '', {}, etc).
             (pkgs.vimUtils.buildVimPlugin { name = "vim-surround"; src = sources.vim-surround; })
             # Multi-file search (`Ack`)
             (pkgs.vimUtils.buildVimPlugin { name = "ferret"; src = sources.ferret; })
@@ -874,6 +877,8 @@ in
             (pkgs.vimUtils.buildVimPlugin { name = "vim-mundo"; src = sources.vim-mundo; })
             # Search/substitution/abbreviation of word variations.
             (pkgs.vimUtils.buildVimPlugin { name = "vim-abolish"; src = sources.vim-abolish; })
+            # Helper for managing personal wiki
+            (pkgs.vimUtils.buildVimPlugin { name = "vimwiki"; src = sources.vimwiki; })
           ];
     };
 
