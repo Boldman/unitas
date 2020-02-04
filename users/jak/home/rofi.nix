@@ -3,6 +3,8 @@
 # This file contains the configuration for rofi.
 
 {
+  home.sessionVariables = { "LAUNCHER" = "${pkgs.rofi}/bin/rofi_drun"; };
+
   programs.rofi = {
     enable = true;
     font = "Iosevka 12";
