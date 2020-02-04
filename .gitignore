@@ -1,4 +1,5 @@
 #Ignore file for nixos configs
+result
 *.bak
 ./keys
 hardware-configuration.nix

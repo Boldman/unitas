@@ -152,8 +152,6 @@ in
       # `shell.nix` files, but using the Nix-integration in stack is easier and avoids the 
       # downsides of having stack installed globally for my purposes
       unstable.stack
-      # Symbol demangler for Rust
-      rustfilt
       # NFS debugging utilities
       nfsUtils
       # Generate `requirements.nix` from `requirements.txt` for Python projects
@@ -180,4 +178,5 @@ in
       # Monitor temperatures
       psensor
     ];
+}
 # vim:filetype=nix:foldmethod=marker:foldlevel=0:ts=2:sts=2:sw=2:nowrap

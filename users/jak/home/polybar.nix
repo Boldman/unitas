@@ -4,8 +4,8 @@
 
 let
   barName = "unitas";
-  colours = config.unitas.jak.colorScheme;
-  # Define a helper function for creating short shell scripts that have some colours available
+  colors = config.unitas.jak.colorScheme;
+  # Define a helper function for creating short shell scripts that have some colors available
   # to them.
   mkBarScript = module: contents: let
     name = "unitas-polybar-${module}";
@@ -34,7 +34,7 @@ in
         "background" = "#00000000";
         "font-0" = let
           defaultFontSize = 12;
-          fontSize = builtins.toString (defaultFontSize * config.unitas.jak.dotfiles.uiScale);
+          fontSize = builtins.toString (defaultFontSize );
         in
           "Iosevka:style=Bold:size=${fontSize}";
         "height" = "1.5%";
@@ -100,10 +100,10 @@ in
         "enable-click" = true;
         "enable-scroll" = true;
         "index-sort" = true;
-        "label-focused-foreground" = "#${colours.basic.brightWhite}";
-        "label-unfocused-foreground" = "#${colours.basic.black}";
-        "label-visible-foreground" = "#${colours.basic.white}";
-        "label-urgent-foreground" = "#${colours.basic.red}";
+        "label-focused-foreground" = "#${colors.basic.brightWhite}";
+        "label-unfocused-foreground" = "#${colors.basic.black}";
+        "label-visible-foreground" = "#${colors.basic.white}";
+        "label-urgent-foreground" = "#${colors.basic.red}";
       };
       "module/memory" = {
         type = "custom/script";
@@ -170,4 +170,4 @@ in
   };
 }
 
-# vim:filetypes=nix:foldmethod=marker:foldlevel=0:ts=2:sts=2:sw=2:nowrap
+# vim:filetype=nix:foldmethod=marker:foldlevel=0:ts=2:sts=2:sw=2:nowrap

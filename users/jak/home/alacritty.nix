@@ -3,7 +3,9 @@
 #This file contains the configuration for Alacritty.
 
 {
-  program.alacritty = {
+  home.sessionVariables = { "TERMINAL" = "${pkgs.alacritty}/bin/alacritty"; };
+
+  programs.alacritty = {
     enable = true;
     settings = {
       window = {

@@ -11,7 +11,7 @@ let
       Define the color for ${description}. Must be a hexidecimal representation, without leading pound sign.
       '';
       example = "FFFFFF";
-      type = type.str;
+      type = types.str;
     };
     #Helper function to construct a color with a foreground and background component.
     mkColorWithFgBg = description: fgHex: bgHex: {
@@ -31,51 +31,51 @@ in
         foreground = mkColor "foreground" "C5C8C6";
         black = mkColor "black" "282A2E";
         red = mkColor "red" "A54242"; 
-        green = mkColour "green" "8C9440";
-        yellow = mkColour "yellow" "DE935F";
-        blue = mkColour "blue" "5F819D";
-        magenta = mkColour "magenta" "85678F";
-        cyan = mkColour "cyan" "5E8D87";
-        white = mkColour "white" "707880";
-        # Bright colours.
-        brightBlack = mkColour "bright black" "373B41";
-        brightRed = mkColour "bright red" "CC6666";
-        brightGreen = mkColour "bright green" "B5BD68";
-        brightYellow = mkColour "bright yellow" "F0C674";
-        brightBlue = mkColour "bright blue" "81A2BE";
-        brightMagenta = mkColour "bright magenta" "B294BB";
-        brightCyan = mkColour "bright cyan" "8ABEB7";
-        brightWhite = mkColour "bright white" "C5C8C6";
+        green = mkColor "green" "8C9440";
+        yellow = mkColor "yellow" "DE935F";
+        blue = mkColor "blue" "5F819D";
+        magenta = mkColor "magenta" "85678F";
+        cyan = mkColor "cyan" "5E8D87";
+        white = mkColor "white" "707880";
+        # Bright colors.
+        brightBlack = mkColor "bright black" "373B41";
+        brightRed = mkColor "bright red" "CC6666";
+        brightGreen = mkColor "bright green" "B5BD68";
+        brightYellow = mkColor "bright yellow" "F0C674";
+        brightBlue = mkColor "bright blue" "81A2BE";
+        brightMagenta = mkColor "bright magenta" "B294BB";
+        brightCyan = mkColor "bright cyan" "8ABEB7";
+        brightWhite = mkColor "bright white" "C5C8C6";
       };
-      # Colours specific to Delta.
+      # colors specific to Delta.
       delta = {
         minus = {
-          regular = mkColour "delta's minus" "260808";
-          emphasised = mkColour "delta's emphasised minus" "3f0d0d";
+          regular = mkColor "delta's minus" "260808";
+          emphasised = mkColor "delta's emphasised minus" "3f0d0d";
         };
         plus = {
-          regular = mkColour "delta's plus" "0b2608";
-          emphasised = mkColour "delta's emphasised plus" "123f0d";
+          regular = mkColor "delta's plus" "0b2608";
+          emphasised = mkColor "delta's emphasised plus" "123f0d";
         };
       };
-      # Colours specific to i3.
+      # colors specific to i3.
       i3 = {
-        highlight = mkColour "i3's highlight" colours.basic.red;
-        highlightBright = mkColour "i3's bright highlight" colours.basic.brightRed;
+        highlight = mkColor "i3's highlight" colors.basic.red;
+        highlightBright = mkColor "i3's bright highlight" colors.basic.brightRed;
       };
-      # Colours specific to Starship.
+      # colors specific to Starship.
       #
-      # Starship seems to mangle the colour slightly, so this hex produces the same
-      # "optical" colour as the regular muted grey used throughout the configuration.
-      starship.mutedGrey = mkColour "starship's muted grey" "6B6B6B";
-      # Colours specific to Neovim.
+      # Starship seems to mangle the color slightly, so this hex produces the same
+      # "optical" color as the regular muted grey used throughout the configuration.
+      starship.mutedGrey = mkColor "starship's muted grey" "6B6B6B";
+      # colors specific to Neovim.
       neovim = {
-        termdebugProgramCounter = mkColour "termdebug's gutter breakpoint indicator"
-          colours.neovim.termdebugBreakpoint.bg;
-        termdebugBreakpoint = mkColourWithFgBg "termdebug's current line" "B2B2B2" "2B2B2B";
+        termdebugProgramCounter = mkColor "termdebug's gutter breakpoint indicator"
+          colors.neovim.termdebugBreakpoint.bg;
+        termdebugBreakpoint = mkColorWithFgBg "termdebug's current line" "B2B2B2" "2B2B2B";
       };
-      # Colours specific to the xsession.
-      xsession.wallpaper = mkColour "wallpaper" "121212";
+      # colors specific to the xsession.
+      xsession.wallpaper = mkColor "wallpaper" "121212";
     };
 
     domain = mkOption {
@@ -102,7 +102,7 @@ in
         description = "Is this a WSL host?";
       };
 
-      isNonNixos = mkOption {
+      isNonNixOS = mkOption {
         type = types.bool;
         default = config.unitas.jak.dotfiles.isWsl;
         description = "Is this a non-NixOS host?";

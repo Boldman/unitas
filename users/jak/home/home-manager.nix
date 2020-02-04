@@ -7,6 +7,6 @@
   home.stateVersion = "19.03";
 
   # Let home-manager manage itself when not using home-manager as a NixOS module.
-  programs.home-manager.enable = config.unitas.jak.dotfile.isNonNixOS;
+  programs.home-manager.enable = config.unitas.jak.dotfiles.isNonNixOS;
 }
 # vim:filetype=nix:foldmethod=marker:foldlevel=0:ts=2:sts=2:sw=2:nowrap

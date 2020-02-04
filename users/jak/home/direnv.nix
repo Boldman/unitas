@@ -1,4 +1,4 @@
-{ pkgs, ...}
+{ pkgs, ...}:
 
 # This file contains the configuration for direnv.
 

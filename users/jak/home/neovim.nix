@@ -63,7 +63,7 @@ in
               ''
           )
         );
-        body = with cfg.colourScheme; ''
+        body = with cfg.colorScheme; ''
           " Create a directory if it doesn't exist.
           function! MaybeMkdir(path)
             if isdirectory(a:path) == 0
@@ -186,7 +186,7 @@ in
               au BufRead,BufNewFile * call DisassembleLLVM()
             augroup END
           endif
-          " Define colour variables.
+          " Define color variables.
           let s:black = '#${basic.black}'
           let s:c_black = 0
           let s:red = '#${basic.red}'
@@ -219,7 +219,7 @@ in
           let s:c_bright_cyan = 14
           let s:bright_white = '#${basic.brightWhite}'
           let s:c_bright_white = 15
-          " Set NeoVim terminal mode colour scheme.
+          " Set NeoVim terminal mode color scheme.
           let g:terminal_color_0 = s:black
           let g:terminal_color_1 = s:red
           let g:terminal_color_2 = s:green
@@ -240,13 +240,13 @@ in
           let s:c_bg = 234
           let s:fg = s:bright_white
           let s:c_fg = s:c_bright_white
-          " Use 24-bit colour.
+          " Use 24-bit color.
           set termguicolors
           " Enable syntax highlighting.
           syntax enable
-          " Apply colourscheme before our own highlighting.
+          " Apply colorscheme before our own highlighting.
           colorscheme hybrid
-          " Use custom terminal colours.
+          " Use custom terminal colors.
           let g:hybrid_custom_term_colors = 1
           " Show incomplete commands.
           set showcmd
@@ -304,7 +304,7 @@ in
           set ttyfast
           " Allow : in filenames.
           set isfname-=:.
-          " Use 24-bit colour.
+          " Use 24-bit color.
           set termguicolors
           " Display the tab characters and end of line characters.
           set list
@@ -331,7 +331,7 @@ in
           " Enable syntax highlighting.
           syntax enable
           colorscheme hybrid
-          " Colour 40 columns after column 80.
+          " color 40 columns after column 80.
           let &colorcolumn='100,'.join(range(140, 1000, 40), ',')
           if has('autocmd')
             augroup vimrc
@@ -371,7 +371,7 @@ in
               au FileType netrw nnoremap <buffer> <silent> <c-l> :TmuxNavigateRight<cr>
             augroup END
           endif
-          " Use custom terminal colours.
+          " Use custom terminal colors.
           let g:hybrid_custom_term_colors = 1
           " Don't automatically jump to first result or the search results.
           let g:FerretAutoJump = 0
@@ -716,14 +716,14 @@ in
           " Set quicker mappings for ALE.
           nmap <C-n> <plug>(ale_next_wrap)
           nmap <C-m> <plug>(ale_previous_wrap)
-          " Set the colour of the colour column (used to highlight where lines should wrap).
+          " Set the color of the color column (used to highlight where lines should wrap).
           hi ColorColumn guibg=#${basic.brightBlack}
-          " Set the background colour.
+          " Set the background color.
           hi Normal guibg=#${basic.background}
-          " Lightline won't colour the single character between two statuslines when there is a
+          " Lightline won't color the single character between two statuslines when there is a
           " vertical split, this will.
           hi StatusLine gui=NONE guifg=#${basic.background} guibg=#${basic.background}
-          " Set the colour of the current debugger line and breakpoints in gutter.
+          " Set the color of the current debugger line and breakpoints in gutter.
           hi debugPC guibg=#${neovim.termdebugProgramCounter}
           hi debugBreakpoint guifg=#${neovim.termdebugBreakpoint.fg} guibg=#${neovim.termdebugBreakpoint.bg}
         '';
@@ -764,7 +764,7 @@ in
             (pkgs.vimUtils.buildVimPlugin { name = "vim-gutentags"; src = sources.vim-gutentags; })
             # Auto-adds `end` where appropriate.
             (pkgs.vimUtils.buildVimPlugin { name = "vim-endwise"; src = sources.vim-endwise; })
-            # Hybrid colour scheme
+            # Hybrid color scheme
             (pkgs.vimUtils.buildVimPlugin { name = "vim-hybrid"; src = sources.vim-hybrid; })
             # Autocompletion/linting/fixing.
             (pkgs.vimUtils.buildVimPlugin { name = "ale"; src = sources.ale; })

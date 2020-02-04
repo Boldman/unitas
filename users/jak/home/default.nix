@@ -2,6 +2,30 @@
 
 {
   imports = [
+    ./alacritty.nix
+    ./compton.nix
+    ./direnv.nix
+    ./dunst.nix
+    ./firefox.nix
+    ./fish.nix
+    ./fzf.nix
+    ./home-manager.nix
+    ./htop.nix
+    ./i3.nix
+    ./language.nix
+    ./less.nix
+    ./lorri.nix
+    ./mpd.nix
+    ./mpv.nix
+    ./neovim.nix
+    ./packages.nix
+    ./polybar.nix
+    ./rofi.nix
+#    ./starship.nix
+    ./sxhkd.nix
+    ./taskwarrior.nix
+    ./tmux.nix
+    ./xsession.nix
   ];
 
   nixpkgs = {

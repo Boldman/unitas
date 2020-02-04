@@ -6,7 +6,7 @@ with lib;
 {
   programs.fish = {
     enable = true;
-    interactiveShellInit = with config.unitas.jak.colourScheme.basic; ''
+    interactiveShellInit = with config.unitas.jak.colorScheme.basic; ''
       # Disable the greeting message.
       set fish_greeting
       # Set environment variables.
@@ -14,7 +14,7 @@ with lib;
       set -x TERM xterm-256color
       # Use vi keybinds.
       fish_vi_key_bindings
-      # Use hybrid colour scheme.
+      # Use hybrid color scheme.
       set fish_color_autosuggestion ${white}
       set fish_color_command ${brightYellow}
       set fish_color_comment ${brightGreen}
@@ -40,7 +40,7 @@ with lib;
     shellAliases = with pkgs; {
       # Make `rm` prompt before removing more than three files or removing recursively.
       "rm" = "${coreutils}/bin/rm -i";
-      # Aliases that make commands colourful.
+      # Aliases that make commands colorful.
       "grep" = "${gnugrep}/bin/grep --color=auto";
       "fgrep" = "${gnugrep}/bin/fgrep --color=auto";
       "egrep" = "${gnugrep}/bin/egrep --color=auto";
@@ -55,32 +55,8 @@ with lib;
       "l" = "${exa}/bin/exa -F";
       # Extra Git subcommands for GitHub.
       "git" = "${gitAndTools.hub}/bin/hub";
-      # Build within a docker container with a rust and musl toolchain.
-      "rust-musl-builder" =
-        "${docker}/bin/docker run --rm -it -v \"$PWD\":/home/rust/src "
-        + "ekidd/rust-musl-builder:stable";
-      # Use this alias to make GPG need to unlock the key. `gpg-update-ssh-agent` would also want
-      # to unlock the key, but the pinentry prompt mangles the terminal with that command.
-      "gpg-unlock-key" =
-        "echo 'foo' | ${gnupg}/bin/gpg -o /dev/null --local-user "
-        + "${config.programs.git.signing.key} -as -";
-      # Use this alias to make the GPG agent relearn what keys are connected and what keys they
-      # have.
-      "gpg-relearn-key" = "${gnupg}/bin/gpg-connect-agent \"scd serialno\" \"learn --force\" /bye";
-      # > Set the startup TTY and X-DISPLAY variables to the values of this session. This command
-      # > is useful to direct future pinentry invocations to another screen. It is only required
-      # > because there is no way in the ssh-agent protocol to convey this information.
-      "gpg-update-ssh-agent" = "${gnupg}/bin/gpg-connect-agent updatestartuptty /bye";
-      # Use this alias to make sure everything is in working order. Need to unlock twice - if
-      # `gpg-update-ssh-agent` called with an locked key then it will prompt for it to be unlocked
-      # in a way that will mangle the terminal, therefore we need to unlock before this.
-      "gpg-refresh" = "gpg-relearn-key && gpg-unlock-key && gpg-update-ssh-agent";
-      # Fairly self explanatory, prints the current external IP address.
-      "what-is-my-ip" = "${dnsutils}/bin/dig +short myip.opendns.com @resolver1.opendns.com";
-      # `<command> | sprunge` will make a quick link to send.
-      "sprunge" = "${curl}/bin/curl -F \"sprunge=<-\" http://sprunge.us";
-      # Stop printing the version number on gdb startup.
-      "gdb" = "gdb -q";
+      # Common mistake when looking up ip address info
+      "ipa" = "ip address";
     };
   };
 }

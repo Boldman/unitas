@@ -3,7 +3,7 @@
 # This file contains the configuration for fzf.
 
 {
-  home.sessionVaribles = {
+  home.sessionVariables = {
     # Configure fzf to use ripgrep.
     "FZF_DEFAULT_COMMAND" =
       "${pkgs.ripgrep}/bin/rg --files --hidden --follow -g \"!{.git\" 2>/dev/null";
