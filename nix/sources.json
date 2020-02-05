@@ -77,10 +77,10 @@
         "homepage": "",
         "owner": "junegunn",
         "repo": "fzf.vim",
-        "rev": "ee08c8f9497a4de74c9df18bc294fbe5930f6e4d",
-        "sha256": "1zdph3s5mpd0j3v867cnrx960m7jqj6a6qc7byvrmwxb4q0gydy3",
+        "rev": "467c3277884240f7b5430f8f4d600e3415c38f3b",
+        "sha256": "1bnml1gfrzbbp6j1lwcip4k9ncf4br604z4h1snw29qsf0wgcyv3",
         "type": "tarball",
-        "url": "https://github.com/junegunn/fzf.vim/archive/ee08c8f9497a4de74c9df18bc294fbe5930f6e4d.tar.gz",
+        "url": "https://github.com/junegunn/fzf.vim/archive/467c3277884240f7b5430f8f4d600e3415c38f3b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "gitalias": {
@@ -143,6 +143,18 @@
         "url": "https://github.com/itchyny/lightline.vim/archive/377e62d8010ae3a65ee19b88328e4f3a5e54eca5.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "neovim-sensible": {
+        "branch": "master",
+        "description": "neovim-sensible.vim: More defaults to agree on. Because neovim has sensible defaults out of the box.",
+        "homepage": "",
+        "owner": "jeffkreeftmeijer",
+        "repo": "neovim-sensible",
+        "rev": "e7ab7544f15e59de2d9a1b42f58e590938e496e7",
+        "sha256": "06whnfvmzfdsx9gvkd2nxhx29939gjzibr2xadh54sj8ns646w58",
+        "type": "tarball",
+        "url": "https://github.com/jeffkreeftmeijer/neovim-sensible/archive/e7ab7544f15e59de2d9a1b42f58e590938e496e7.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",
@@ -197,10 +209,10 @@
         "homepage": null,
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "9f64b847391b66d1343bc1439e5544ab42862893",
-        "sha256": "1j99ldzxydzyny5rrqfcwj8sl7pcmj9nc3pqm1v1ywha2qy5938r",
+        "rev": "437e1f69be786bfbd06a611530bbd2fac6af1d35",
+        "sha256": "16ji4wsxvmy0ll6f34mk1vhcm1w9jh6ip9k91ygpxv51rqxqpps5",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/9f64b847391b66d1343bc1439e5544ab42862893.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/437e1f69be786bfbd06a611530bbd2fac6af1d35.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs-mozilla": {
@@ -365,10 +377,10 @@
         "homepage": "https://www.vim.org/scripts/script.php?script_id=2975",
         "owner": "tpope",
         "repo": "vim-fugitive",
-        "rev": "083f3c23ccad22b5d2bdabcbb8a076e8c695686b",
-        "sha256": "1vbafcamqaggh83d66743dhb44wmcmwj4vh2j9spkfp73n164pgh",
+        "rev": "0e6f72b005312225ffb47290500941d59eb1f0f7",
+        "sha256": "1g9rmg8ig3qy03gylh77g6pd42yx2sgxxg1bsbz1f7279dcx0h7f",
         "type": "tarball",
-        "url": "https://github.com/tpope/vim-fugitive/archive/083f3c23ccad22b5d2bdabcbb8a076e8c695686b.tar.gz",
+        "url": "https://github.com/tpope/vim-fugitive/archive/0e6f72b005312225ffb47290500941d59eb1f0f7.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-gutentags": {
@@ -377,10 +389,10 @@
         "homepage": "https://bolt80.com/gutentags/",
         "owner": "ludovicchabant",
         "repo": "vim-gutentags",
-        "rev": "eb9e57f579d2ef747be25a7a4ec5add6fe5ca3d9",
-        "sha256": "0v46yxv6rv6x9zqsvahkjjwp8khzsz4il1rk34r6zlsy3w8d988d",
+        "rev": "2317cec345a23e2872d2a95262e7c6483a4a428d",
+        "sha256": "0vfqrmmd4m67lqym943xkskznc6mx9px7m0fqrmni1j6rc6nsjzp",
         "type": "tarball",
-        "url": "https://github.com/ludovicchabant/vim-gutentags/archive/eb9e57f579d2ef747be25a7a4ec5add6fe5ca3d9.tar.gz",
+        "url": "https://github.com/ludovicchabant/vim-gutentags/archive/2317cec345a23e2872d2a95262e7c6483a4a428d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-hocon": {
@@ -648,15 +660,15 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vimwiki": {
-        "branch": "dev",
+        "branch": "master",
         "description": "Personal Wiki for Vim",
         "homepage": "http://vimwiki.github.io/",
         "owner": "vimwiki",
         "repo": "vimwiki",
-        "rev": "75c557bcbca7d9ebf461629e2818e7c21786e6f7",
-        "sha256": "10jx66hs7r5gapp0bzf90vbx476a0b7gid2jwwwrw5p1schjxbd3",
+        "rev": "64c9f3d36d632b1657616c06ea8f08f14cf6438d",
+        "sha256": "0wwfl0bafwh9p8lzic75d0nl6v5dnpfid7fbiffr0i72agp0gcq7",
         "type": "tarball",
-        "url": "https://github.com/vimwiki/vimwiki/archive/75c557bcbca7d9ebf461629e2818e7c21786e6f7.tar.gz",
+        "url": "https://github.com/vimwiki/vimwiki/archive/64c9f3d36d632b1657616c06ea8f08f14cf6438d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

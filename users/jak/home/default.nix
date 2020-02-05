@@ -12,6 +12,7 @@
     ./home-manager.nix
     ./htop.nix
     ./i3.nix
+#	./kakoune.nix
     ./language.nix
     ./less.nix
     ./lorri.nix
