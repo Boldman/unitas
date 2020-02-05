@@ -1,9 +1,11 @@
-with import <nixpkgs> {};
+{ sources ? import ./nix/sources.nix {}
+, pkgs ? import sources.nixpkgs {}
+}:
 
-stdenv.mkDerivation {
-  name = "unitas-config";
-  buildInputs = [
-  	nixfmt
+pkgs.mkShell {
+  buildInputs = with pkgs; [
+    niv
+    nixfmt
   ];
   shellHook = "echo ${stdenv.mkDerivation.name}";
 }
