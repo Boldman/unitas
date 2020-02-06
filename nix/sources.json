@@ -47,6 +47,18 @@
         "url": "https://github.com/edolstra/dwarffs/archive/47218f1b8f971925241b1b307a1e770a7c220b5e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "editorconfig-vim": {
+        "branch": "master",
+        "description": "EditorConfig plugin for Vim",
+        "homepage": "http://editorconfig.org",
+        "owner": "editorconfig",
+        "repo": "editorconfig-vim",
+        "rev": "21fbc2afe8f30e98b890fb42fc6bc18fc0c0380e",
+        "sha256": "0yxfrb6aazr2h0cd68gj67vi8mvhn9bml6w2h449416x5vnzp5r0",
+        "type": "tarball",
+        "url": "https://github.com/editorconfig/editorconfig-vim/archive/21fbc2afe8f30e98b890fb42fc6bc18fc0c0380e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "ferret": {
         "branch": "master",
         "description": "🐀 Enhanced multi-file search for Vim",
@@ -209,10 +221,10 @@
         "homepage": null,
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "437e1f69be786bfbd06a611530bbd2fac6af1d35",
-        "sha256": "16ji4wsxvmy0ll6f34mk1vhcm1w9jh6ip9k91ygpxv51rqxqpps5",
+        "rev": "f498ceb6f2b755bafbf8d078243f4ab209224cc6",
+        "sha256": "0n1352gif79vlsb9bk8v8vryrllay5w68di4x557252wbk6cbixv",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/437e1f69be786bfbd06a611530bbd2fac6af1d35.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/f498ceb6f2b755bafbf8d078243f4ab209224cc6.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs-mozilla": {
@@ -309,6 +321,18 @@
         "sha256": "06346ih3hzwszhkj25g4xv5av7292s6sdbrdpx39p0n3kgf5mwww",
         "type": "tarball",
         "url": "https://github.com/NHDaly/tmux-better-mouse-mode/archive/aa59077c635ab21b251bd8cb4dc24c415e64a58e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "vim-SyntaxRange": {
+        "branch": "master",
+        "description": "Define a different filetype syntax on regions of a buffer.",
+        "homepage": null,
+        "owner": "inkarkat",
+        "repo": "vim-SyntaxRange",
+        "rev": "dc33d8f84ebbf4c9fa03ce00b8adeb83e05249d3",
+        "sha256": "0nf0hkgl5fm0laxb5253br894259kz33zyiwxzrry6w3108alasr",
+        "type": "tarball",
+        "url": "https://github.com/inkarkat/vim-SyntaxRange/archive/dc33d8f84ebbf4c9fa03ce00b8adeb83e05249d3.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-abolish": {

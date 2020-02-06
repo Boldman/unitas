@@ -23,6 +23,8 @@
           [
 						# Sensible defaults for Neovim.
             (pkgs.vimUtils.buildVimPlugin { name = "vim-sensible"; src = sources.neovim-sensible; })
+            # Read .editorconfig file in directories
+            (pkgs.vimUtils.buildVimPlugin { name = "editorconfig-vim"; src = sources.editorconfig-vim; })
 						# Helper for managing personal wiki
             (pkgs.vimUtils.buildVimPlugin { name = "vimwiki"; src = sources.vimwiki; })
 					];
@@ -32,8 +34,12 @@
 			 set relativenumber
        
        "Vimwiki Settings
-       let g:vimwiki_list = [{'path': '~/unitas/',
+       let g:vimwiki_list = [{'path': '~/unitas/wiki/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
+       "EditorConfig settings
+       let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
+
+
 
 		'';
   };

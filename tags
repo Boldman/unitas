@@ -1,0 +1,627 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+Author	README.md	/^# Author$/;"	c
+Structure	README.md	/^# Structure$/;"	c
+Unitas	README.md	/^# Unitas$/;"	c
+Unitas Wiki	index.md	/^# Unitas Wiki$/;"	c
+ale	nix/sources.json	/^    "ale": {$/;"	o
+all-hies	nix/sources.json	/^    "all-hies": {$/;"	o
+branch	nix/sources.json	/^        "branch": "0.0.1.0",$/;"	s	object:ormolu
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:all-hies
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:deoplete.nvim
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:dwarffs
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:ferret
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:fugitive-gitlab.vim
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:fzf.vim
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:gitalias
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:is.vim
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:lightline-ale
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:lightline.vim
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:neovim-sensible
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:niv
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:nixfmt
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:nixpkgs
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:nixpkgs-mozilla
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:pypi2nix
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:rust.vim
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:scratch.vim
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:split-term.vim
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:tabular
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:tmux-better-mouse-mode
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-abolish
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-commentary
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-dispatch
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-endwise
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-eunuch
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-fugitive
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-gutentags
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-hocon
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-hybrid
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-localvimrc
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-matchit
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-mundo
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-numbertoggle
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-pandoc
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-pandoc-syntax
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-polyglot
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-repeat
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-rhubarb
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-sensible
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-signature
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-signify
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-sneak
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-spirv
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-surround
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-tmux-clipboard
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-tmux-focus-events
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-tmux-navigator
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-unimpaired
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vim-vinegar
+branch	nix/sources.json	/^        "branch": "master",$/;"	s	object:vimwiki
+branch	nix/sources.json	/^        "branch": "nixos-19.03",$/;"	s	object:nixos
+branch	nix/sources.json	/^        "branch": "nixos-unstable",$/;"	s	object:nixos-unstable
+branch	nix/sources.json	/^        "branch": "ormolu-fixer",$/;"	s	object:ale
+branch	nix/sources.json	/^        "branch": "release-19.09",$/;"	s	object:home-manager
+deoplete.nvim	nix/sources.json	/^    "deoplete.nvim": {$/;"	o
+description	nix/sources.json	/^        "description": ":christmas_tree: Vim undo tree visualizer",$/;"	s	object:vim-mundo
+description	nix/sources.json	/^        "description": ":heavy_plus_sign: Show a diff using Vim its sign column.",$/;"	s	object:vim-signify
+description	nix/sources.json	/^        "description": ":stars: Dark powered asynchronous completion framework for neovim\/Vim8"/;"	s	object:deoplete.nvim
+description	nix/sources.json	/^        "description": "A FUSE filesystem that allows tools like gdb to look up debug info files/;"	s	object:dwarffs
+description	nix/sources.json	/^        "description": "A Vim plugin that manages your tag files",$/;"	s	object:vim-gutentags
+description	nix/sources.json	/^        "description": "A dark color scheme for Vim",$/;"	s	object:vim-hybrid
+description	nix/sources.json	/^        "description": "A formatter for Haskell source code",$/;"	s	object:ormolu
+description	nix/sources.json	/^        "description": "A light and configurable statusline\/tabline plugin for Vim",$/;"	s	object:lightline.vim
+description	nix/sources.json	/^        "description": "A read-only mirror of NixOS\/nixpkgs tracking the released channels. Sen/;"	s	object:nixos
+description	nix/sources.json	/^        "description": "A read-only mirror of NixOS\/nixpkgs tracking the released channels. Sen/;"	s	object:nixos-unstable
+description	nix/sources.json	/^        "description": "A solid language pack for Vim.",$/;"	s	object:vim-polyglot
+description	nix/sources.json	/^        "description": "A tmux plugin to better manage and configure the mouse.",$/;"	s	object:tmux-better-mouse-mode
+description	nix/sources.json	/^        "description": "A vim plugin for the Khronos Group's SPIR-V standard.",$/;"	s	object:vim-spirv
+description	nix/sources.json	/^        "description": "ALE indicator for the lightline vim plugin",$/;"	s	object:lightline-ale
+description	nix/sources.json	/^        "description": "An extension to fugitive.vim for gitlab support",$/;"	s	object:fugitive-gitlab.vim
+description	nix/sources.json	/^        "description": "Automatic code formatter for the Nix programming language",$/;"	s	object:nixfmt
+description	nix/sources.json	/^        "description": "Cached Haskell IDE Engine Nix builds for all GHC versions",$/;"	s	object:all-hies
+description	nix/sources.json	/^        "description": "Check syntax in Vim asynchronously and fix files, with Language Server P/;"	s	object:ale
+description	nix/sources.json	/^        "description": "Easy dependency management for Nix projects",$/;"	s	object:niv
+description	nix/sources.json	/^        "description": "Generate Nix expressions for Python packages [maintainer=@seppeljordan]"/;"	s	object:pypi2nix
+description	nix/sources.json	/^        "description": "Git alias commands for faster easier version control",$/;"	s	object:gitalias
+description	nix/sources.json	/^        "description": "Make terminal vim and tmux work better together.",$/;"	s	object:vim-tmux-focus-events
+description	nix/sources.json	/^        "description": "Manage a user environment using Nix",$/;"	s	object:home-manager
+description	nix/sources.json	/^        "description": "Mirror of vim-matchit for use with Vundle.",$/;"	s	object:vim-matchit
+description	nix/sources.json	/^        "description": "Nix Packages collection",$/;"	s	object:nixpkgs
+description	nix/sources.json	/^        "description": "Personal Wiki for Vim",$/;"	s	object:vimwiki
+description	nix/sources.json	/^        "description": "Plugin to toggle, display and navigate marks",$/;"	s	object:vim-signature
+description	nix/sources.json	/^        "description": "Seamless navigation between tmux panes and vim splits",$/;"	s	object:vim-tmux-navigator
+description	nix/sources.json	/^        "description": "Search local vimrc files (\\".lvimrc\\") in the tree (root dir up to cur/;"	s	object:vim-localvimrc
+description	nix/sources.json	/^        "description": "The missing motion for Vim :athletic_shoe:",$/;"	s	object:vim-sneak
+description	nix/sources.json	/^        "description": "Toggles between hybrid and absolute line numbers automatically",$/;"	s	object:vim-numbertoggle
+description	nix/sources.json	/^        "description": "Unobtrusive scratch window",$/;"	s	object:scratch.vim
+description	nix/sources.json	/^        "description": "Utilites around neovim's `:terminal`.",$/;"	s	object:split-term.vim
+description	nix/sources.json	/^        "description": "Vim configuration for Rust.",$/;"	s	object:rust.vim
+description	nix/sources.json	/^        "description": "Vim script for text filtering and alignment",$/;"	s	object:tabular
+description	nix/sources.json	/^        "description": "abolish.vim: easily search for, substitute, and abbreviate multiple vari/;"	s	object:vim-abolish
+description	nix/sources.json	/^        "description": "commentary.vim: comment stuff out",$/;"	s	object:vim-commentary
+description	nix/sources.json	/^        "description": "dispatch.vim: Asynchronous build and test dispatcher",$/;"	s	object:vim-dispatch
+description	nix/sources.json	/^        "description": "endwise.vim: wisely add \\"end\\" in ruby, endfunction\/endif\/more in v/;"	s	object:vim-endwise
+description	nix/sources.json	/^        "description": "eunuch.vim: Helpers for UNIX",$/;"	s	object:vim-eunuch
+description	nix/sources.json	/^        "description": "fugitive.vim: A Git wrapper so awesome, it should be illegal",$/;"	s	object:vim-fugitive
+description	nix/sources.json	/^        "description": "fzf :heart: vim",$/;"	s	object:fzf.vim
+description	nix/sources.json	/^        "description": "incremental search improved - successor of incsearch.vim",$/;"	s	object:is.vim
+description	nix/sources.json	/^        "description": "mozilla related nixpkgs (extends nixos\/nixpkgs repo)",$/;"	s	object:nixpkgs-mozilla
+description	nix/sources.json	/^        "description": "neovim-sensible.vim: More defaults to agree on. Because neovim has sensi/;"	s	object:neovim-sensible
+description	nix/sources.json	/^        "description": "pandoc integration and utilities for vim",$/;"	s	object:vim-pandoc
+description	nix/sources.json	/^        "description": "pandoc markdown syntax, to be installed alongside vim-pandoc",$/;"	s	object:vim-pandoc-syntax
+description	nix/sources.json	/^        "description": "repeat.vim: enable repeating supported plugin maps with \\".\\"",$/;"	s	object:vim-repeat
+description	nix/sources.json	/^        "description": "rhubarb.vim: GitHub extension for fugitive.vim",$/;"	s	object:vim-rhubarb
+description	nix/sources.json	/^        "description": "seamless integration for vim and tmux's clipboard",$/;"	s	object:vim-tmux-clipboard
+description	nix/sources.json	/^        "description": "sensible.vim: Defaults everyone can agree on",$/;"	s	object:vim-sensible
+description	nix/sources.json	/^        "description": "surround.vim: quoting\/parenthesizing made simple",$/;"	s	object:vim-surround
+description	nix/sources.json	/^        "description": "unimpaired.vim: Pairs of handy bracket mappings",$/;"	s	object:vim-unimpaired
+description	nix/sources.json	/^        "description": "vinegar.vim: Combine with netrw to create a delicious salad dressing",$/;"	s	object:vim-vinegar
+description	nix/sources.json	/^        "description": "🐀 Enhanced multi-file search for Vim",$/;"	s	object:ferret
+description	nix/sources.json	/^        "description": null,$/;"	z	object:vim-hocon
+dwarffs	nix/sources.json	/^    "dwarffs": {$/;"	o
+ferret	nix/sources.json	/^    "ferret": {$/;"	o
+fugitive-gitlab.vim	nix/sources.json	/^    "fugitive-gitlab.vim": {$/;"	o
+fzf.vim	nix/sources.json	/^    "fzf.vim": {$/;"	o
+gitalias	nix/sources.json	/^    "gitalias": {$/;"	o
+home-manager	nix/sources.json	/^    "home-manager": {$/;"	o
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:ale
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:all-hies
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:deoplete.nvim
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:dwarffs
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:ferret
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:fzf.vim
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:home-manager
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:is.vim
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:neovim-sensible
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:pypi2nix
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:scratch.vim
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:tabular
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:tmux-better-mouse-mode
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:vim-hybrid
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:vim-pandoc
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:vim-pandoc-syntax
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:vim-polyglot
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:vim-rhubarb
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:vim-signify
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:vim-tmux-clipboard
+homepage	nix/sources.json	/^        "homepage": "",$/;"	s	object:vim-tmux-focus-events
+homepage	nix/sources.json	/^        "homepage": "http:\/\/vimwiki.github.io\/",$/;"	s	object:vimwiki
+homepage	nix/sources.json	/^        "homepage": "http:\/\/www.vim.org\/scripts\/script.php?script_id=1545",$/;"	s	object:vim-abolish
+homepage	nix/sources.json	/^        "homepage": "http:\/\/www.vim.org\/scripts\/script.php?script_id=1697",$/;"	s	object:vim-surround
+homepage	nix/sources.json	/^        "homepage": "http:\/\/www.vim.org\/scripts\/script.php?script_id=2136",$/;"	s	object:vim-repeat
+homepage	nix/sources.json	/^        "homepage": "http:\/\/www.vim.org\/scripts\/script.php?script_id=2386",$/;"	s	object:vim-endwise
+homepage	nix/sources.json	/^        "homepage": "http:\/\/www.vim.org\/scripts\/script.php?script_id=3695",$/;"	s	object:vim-commentary
+homepage	nix/sources.json	/^        "homepage": "http:\/\/www.vim.org\/scripts\/script.php?script_id=4391",$/;"	s	object:vim-sensible
+homepage	nix/sources.json	/^        "homepage": "http:\/\/www.vim.org\/scripts\/script.php?script_id=441",$/;"	s	object:vim-localvimrc
+homepage	nix/sources.json	/^        "homepage": "http:\/\/www.vim.org\/scripts\/script.php?script_id=4809",$/;"	s	object:vim-sneak
+homepage	nix/sources.json	/^        "homepage": "http:\/\/www.vim.org\/scripts\/script.php?script_id=5294",$/;"	s	object:lightline.vim
+homepage	nix/sources.json	/^        "homepage": "https:\/\/bolt80.com\/gutentags\/",$/;"	s	object:vim-gutentags
+homepage	nix/sources.json	/^        "homepage": "https:\/\/github.com\/NixOS\/nixpkgs",$/;"	s	object:nixos
+homepage	nix/sources.json	/^        "homepage": "https:\/\/github.com\/NixOS\/nixpkgs",$/;"	s	object:nixos-unstable
+homepage	nix/sources.json	/^        "homepage": "https:\/\/github.com\/nmattia\/niv",$/;"	s	object:niv
+homepage	nix/sources.json	/^        "homepage": "https:\/\/jeffkreeftmeijer.com\/vim-number\/#automatic-toggling-between-lin/;"	s	object:vim-numbertoggle
+homepage	nix/sources.json	/^        "homepage": "https:\/\/simnalamburt.github.io\/vim-mundo",$/;"	s	object:vim-mundo
+homepage	nix/sources.json	/^        "homepage": "https:\/\/www.vim.org\/scripts\/script.php?script_id=1590",$/;"	s	object:vim-unimpaired
+homepage	nix/sources.json	/^        "homepage": "https:\/\/www.vim.org\/scripts\/script.php?script_id=2975",$/;"	s	object:vim-fugitive
+homepage	nix/sources.json	/^        "homepage": "https:\/\/www.vim.org\/scripts\/script.php?script_id=4300",$/;"	s	object:vim-eunuch
+homepage	nix/sources.json	/^        "homepage": "https:\/\/www.vim.org\/scripts\/script.php?script_id=4504",$/;"	s	object:vim-dispatch
+homepage	nix/sources.json	/^        "homepage": "https:\/\/www.vim.org\/scripts\/script.php?script_id=5671",$/;"	s	object:vim-vinegar
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:fugitive-gitlab.vim
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:gitalias
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:lightline-ale
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:nixfmt
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:nixpkgs
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:nixpkgs-mozilla
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:ormolu
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:rust.vim
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:split-term.vim
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:vim-hocon
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:vim-matchit
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:vim-signature
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:vim-spirv
+homepage	nix/sources.json	/^        "homepage": null,$/;"	z	object:vim-tmux-navigator
+is.vim	nix/sources.json	/^    "is.vim": {$/;"	o
+lightline-ale	nix/sources.json	/^    "lightline-ale": {$/;"	o
+lightline.vim	nix/sources.json	/^    "lightline.vim": {$/;"	o
+neovim-sensible	nix/sources.json	/^    "neovim-sensible": {$/;"	o
+niv	nix/sources.json	/^    "niv": {$/;"	o
+nixfmt	nix/sources.json	/^    "nixfmt": {$/;"	o
+nixos	nix/sources.json	/^    "nixos": {$/;"	o
+nixos-unstable	nix/sources.json	/^    "nixos-unstable": {$/;"	o
+nixpkgs	nix/sources.json	/^    "nixpkgs": {$/;"	o
+nixpkgs-mozilla	nix/sources.json	/^    "nixpkgs-mozilla": {$/;"	o
+ormolu	nix/sources.json	/^    "ormolu": {$/;"	o
+owner	nix/sources.json	/^        "owner": "GEverding",$/;"	s	object:vim-hocon
+owner	nix/sources.json	/^        "owner": "Gabriel439",$/;"	s	object:nixfmt
+owner	nix/sources.json	/^        "owner": "GitAlias",$/;"	s	object:gitalias
+owner	nix/sources.json	/^        "owner": "Infinisil",$/;"	s	object:all-hies
+owner	nix/sources.json	/^        "owner": "NHDaly",$/;"	s	object:tmux-better-mouse-mode
+owner	nix/sources.json	/^        "owner": "NixOS",$/;"	s	object:nixos
+owner	nix/sources.json	/^        "owner": "NixOS",$/;"	s	object:nixos-unstable
+owner	nix/sources.json	/^        "owner": "NixOS",$/;"	s	object:nixpkgs
+owner	nix/sources.json	/^        "owner": "Shougo",$/;"	s	object:deoplete.nvim
+owner	nix/sources.json	/^        "owner": "christoomey",$/;"	s	object:vim-tmux-navigator
+owner	nix/sources.json	/^        "owner": "davidtwco",$/;"	s	object:ale
+owner	nix/sources.json	/^        "owner": "edolstra",$/;"	s	object:dwarffs
+owner	nix/sources.json	/^        "owner": "embear",$/;"	s	object:vim-localvimrc
+owner	nix/sources.json	/^        "owner": "geoffharcourt",$/;"	s	object:vim-matchit
+owner	nix/sources.json	/^        "owner": "godlygeek",$/;"	s	object:tabular
+owner	nix/sources.json	/^        "owner": "haya14busa",$/;"	s	object:is.vim
+owner	nix/sources.json	/^        "owner": "itchyny",$/;"	s	object:lightline.vim
+owner	nix/sources.json	/^        "owner": "jeffkreeftmeijer",$/;"	s	object:neovim-sensible
+owner	nix/sources.json	/^        "owner": "jeffkreeftmeijer",$/;"	s	object:vim-numbertoggle
+owner	nix/sources.json	/^        "owner": "junegunn",$/;"	s	object:fzf.vim
+owner	nix/sources.json	/^        "owner": "justinmk",$/;"	s	object:vim-sneak
+owner	nix/sources.json	/^        "owner": "kbenzie",$/;"	s	object:vim-spirv
+owner	nix/sources.json	/^        "owner": "kshenoy",$/;"	s	object:vim-signature
+owner	nix/sources.json	/^        "owner": "ludovicchabant",$/;"	s	object:vim-gutentags
+owner	nix/sources.json	/^        "owner": "maximbaz",$/;"	s	object:lightline-ale
+owner	nix/sources.json	/^        "owner": "mhinz",$/;"	s	object:vim-signify
+owner	nix/sources.json	/^        "owner": "mozilla",$/;"	s	object:nixpkgs-mozilla
+owner	nix/sources.json	/^        "owner": "mtth",$/;"	s	object:scratch.vim
+owner	nix/sources.json	/^        "owner": "nix-community",$/;"	s	object:pypi2nix
+owner	nix/sources.json	/^        "owner": "nmattia",$/;"	s	object:niv
+owner	nix/sources.json	/^        "owner": "roxma",$/;"	s	object:vim-tmux-clipboard
+owner	nix/sources.json	/^        "owner": "rust-lang",$/;"	s	object:rust.vim
+owner	nix/sources.json	/^        "owner": "rycee",$/;"	s	object:home-manager
+owner	nix/sources.json	/^        "owner": "sheerun",$/;"	s	object:vim-polyglot
+owner	nix/sources.json	/^        "owner": "shumphrey",$/;"	s	object:fugitive-gitlab.vim
+owner	nix/sources.json	/^        "owner": "simnalamburt",$/;"	s	object:vim-mundo
+owner	nix/sources.json	/^        "owner": "tmux-plugins",$/;"	s	object:vim-tmux-focus-events
+owner	nix/sources.json	/^        "owner": "tpope",$/;"	s	object:vim-abolish
+owner	nix/sources.json	/^        "owner": "tpope",$/;"	s	object:vim-commentary
+owner	nix/sources.json	/^        "owner": "tpope",$/;"	s	object:vim-dispatch
+owner	nix/sources.json	/^        "owner": "tpope",$/;"	s	object:vim-endwise
+owner	nix/sources.json	/^        "owner": "tpope",$/;"	s	object:vim-eunuch
+owner	nix/sources.json	/^        "owner": "tpope",$/;"	s	object:vim-fugitive
+owner	nix/sources.json	/^        "owner": "tpope",$/;"	s	object:vim-repeat
+owner	nix/sources.json	/^        "owner": "tpope",$/;"	s	object:vim-rhubarb
+owner	nix/sources.json	/^        "owner": "tpope",$/;"	s	object:vim-sensible
+owner	nix/sources.json	/^        "owner": "tpope",$/;"	s	object:vim-surround
+owner	nix/sources.json	/^        "owner": "tpope",$/;"	s	object:vim-unimpaired
+owner	nix/sources.json	/^        "owner": "tpope",$/;"	s	object:vim-vinegar
+owner	nix/sources.json	/^        "owner": "tweag",$/;"	s	object:ormolu
+owner	nix/sources.json	/^        "owner": "vim-pandoc",$/;"	s	object:vim-pandoc
+owner	nix/sources.json	/^        "owner": "vim-pandoc",$/;"	s	object:vim-pandoc-syntax
+owner	nix/sources.json	/^        "owner": "vimlab",$/;"	s	object:split-term.vim
+owner	nix/sources.json	/^        "owner": "vimwiki",$/;"	s	object:vimwiki
+owner	nix/sources.json	/^        "owner": "w0ng",$/;"	s	object:vim-hybrid
+owner	nix/sources.json	/^        "owner": "wincent",$/;"	s	object:ferret
+pypi2nix	nix/sources.json	/^    "pypi2nix": {$/;"	o
+repo	nix/sources.json	/^        "repo": "ale",$/;"	s	object:ale
+repo	nix/sources.json	/^        "repo": "all-hies",$/;"	s	object:all-hies
+repo	nix/sources.json	/^        "repo": "deoplete.nvim",$/;"	s	object:deoplete.nvim
+repo	nix/sources.json	/^        "repo": "dwarffs",$/;"	s	object:dwarffs
+repo	nix/sources.json	/^        "repo": "ferret",$/;"	s	object:ferret
+repo	nix/sources.json	/^        "repo": "fugitive-gitlab.vim",$/;"	s	object:fugitive-gitlab.vim
+repo	nix/sources.json	/^        "repo": "fzf.vim",$/;"	s	object:fzf.vim
+repo	nix/sources.json	/^        "repo": "gitalias",$/;"	s	object:gitalias
+repo	nix/sources.json	/^        "repo": "home-manager",$/;"	s	object:home-manager
+repo	nix/sources.json	/^        "repo": "is.vim",$/;"	s	object:is.vim
+repo	nix/sources.json	/^        "repo": "lightline-ale",$/;"	s	object:lightline-ale
+repo	nix/sources.json	/^        "repo": "lightline.vim",$/;"	s	object:lightline.vim
+repo	nix/sources.json	/^        "repo": "neovim-sensible",$/;"	s	object:neovim-sensible
+repo	nix/sources.json	/^        "repo": "niv",$/;"	s	object:niv
+repo	nix/sources.json	/^        "repo": "nixfmt",$/;"	s	object:nixfmt
+repo	nix/sources.json	/^        "repo": "nixpkgs",$/;"	s	object:nixpkgs
+repo	nix/sources.json	/^        "repo": "nixpkgs-channels",$/;"	s	object:nixos
+repo	nix/sources.json	/^        "repo": "nixpkgs-channels",$/;"	s	object:nixos-unstable
+repo	nix/sources.json	/^        "repo": "nixpkgs-mozilla",$/;"	s	object:nixpkgs-mozilla
+repo	nix/sources.json	/^        "repo": "ormolu",$/;"	s	object:ormolu
+repo	nix/sources.json	/^        "repo": "pypi2nix",$/;"	s	object:pypi2nix
+repo	nix/sources.json	/^        "repo": "rust.vim",$/;"	s	object:rust.vim
+repo	nix/sources.json	/^        "repo": "scratch.vim",$/;"	s	object:scratch.vim
+repo	nix/sources.json	/^        "repo": "split-term.vim",$/;"	s	object:split-term.vim
+repo	nix/sources.json	/^        "repo": "tabular",$/;"	s	object:tabular
+repo	nix/sources.json	/^        "repo": "tmux-better-mouse-mode",$/;"	s	object:tmux-better-mouse-mode
+repo	nix/sources.json	/^        "repo": "vim-abolish",$/;"	s	object:vim-abolish
+repo	nix/sources.json	/^        "repo": "vim-commentary",$/;"	s	object:vim-commentary
+repo	nix/sources.json	/^        "repo": "vim-dispatch",$/;"	s	object:vim-dispatch
+repo	nix/sources.json	/^        "repo": "vim-endwise",$/;"	s	object:vim-endwise
+repo	nix/sources.json	/^        "repo": "vim-eunuch",$/;"	s	object:vim-eunuch
+repo	nix/sources.json	/^        "repo": "vim-fugitive",$/;"	s	object:vim-fugitive
+repo	nix/sources.json	/^        "repo": "vim-gutentags",$/;"	s	object:vim-gutentags
+repo	nix/sources.json	/^        "repo": "vim-hocon",$/;"	s	object:vim-hocon
+repo	nix/sources.json	/^        "repo": "vim-hybrid",$/;"	s	object:vim-hybrid
+repo	nix/sources.json	/^        "repo": "vim-localvimrc",$/;"	s	object:vim-localvimrc
+repo	nix/sources.json	/^        "repo": "vim-matchit",$/;"	s	object:vim-matchit
+repo	nix/sources.json	/^        "repo": "vim-mundo",$/;"	s	object:vim-mundo
+repo	nix/sources.json	/^        "repo": "vim-numbertoggle",$/;"	s	object:vim-numbertoggle
+repo	nix/sources.json	/^        "repo": "vim-pandoc",$/;"	s	object:vim-pandoc
+repo	nix/sources.json	/^        "repo": "vim-pandoc-syntax",$/;"	s	object:vim-pandoc-syntax
+repo	nix/sources.json	/^        "repo": "vim-polyglot",$/;"	s	object:vim-polyglot
+repo	nix/sources.json	/^        "repo": "vim-repeat",$/;"	s	object:vim-repeat
+repo	nix/sources.json	/^        "repo": "vim-rhubarb",$/;"	s	object:vim-rhubarb
+repo	nix/sources.json	/^        "repo": "vim-sensible",$/;"	s	object:vim-sensible
+repo	nix/sources.json	/^        "repo": "vim-signature",$/;"	s	object:vim-signature
+repo	nix/sources.json	/^        "repo": "vim-signify",$/;"	s	object:vim-signify
+repo	nix/sources.json	/^        "repo": "vim-sneak",$/;"	s	object:vim-sneak
+repo	nix/sources.json	/^        "repo": "vim-spirv",$/;"	s	object:vim-spirv
+repo	nix/sources.json	/^        "repo": "vim-surround",$/;"	s	object:vim-surround
+repo	nix/sources.json	/^        "repo": "vim-tmux-clipboard",$/;"	s	object:vim-tmux-clipboard
+repo	nix/sources.json	/^        "repo": "vim-tmux-focus-events",$/;"	s	object:vim-tmux-focus-events
+repo	nix/sources.json	/^        "repo": "vim-tmux-navigator",$/;"	s	object:vim-tmux-navigator
+repo	nix/sources.json	/^        "repo": "vim-unimpaired",$/;"	s	object:vim-unimpaired
+repo	nix/sources.json	/^        "repo": "vim-vinegar",$/;"	s	object:vim-vinegar
+repo	nix/sources.json	/^        "repo": "vimwiki",$/;"	s	object:vimwiki
+rev	nix/sources.json	/^        "rev": "08e66532bffed445c949ae0a0501940c000553ed",$/;"	s	object:vim-unimpaired
+rev	nix/sources.json	/^        "rev": "0b36a367f4d46b7f060836fcbfec029cce870ea9",$/;"	s	object:vim-localvimrc
+rev	nix/sources.json	/^        "rev": "0d1129e5cf1b0e3a90e923c3b5f40133bf153f7c",$/;"	s	object:vim-pandoc-syntax
+rev	nix/sources.json	/^        "rev": "0e6f72b005312225ffb47290500941d59eb1f0f7",$/;"	s	object:vim-fugitive
+rev	nix/sources.json	/^        "rev": "1206e1474fc613caeb1ba56d36b71d7f9f7760ac",$/;"	s	object:vim-dispatch
+rev	nix/sources.json	/^        "rev": "2317cec345a23e2872d2a95262e7c6483a4a428d",$/;"	s	object:vim-gutentags
+rev	nix/sources.json	/^        "rev": "2bbb80576a62f58417e05d8600bb5647868bedf7",$/;"	s	object:vim-pandoc
+rev	nix/sources.json	/^        "rev": "2d9f34c09f548ed4df213389caa2882bfe56db58",$/;"	s	object:vim-sensible
+rev	nix/sources.json	/^        "rev": "2ecfd86b631714b457e56d70dd83fa60435baeb6",$/;"	s	object:niv
+rev	nix/sources.json	/^        "rev": "339091ac4dd1f17e225fe7d57b48aff55f99b23a",$/;"	s	object:tabular
+rev	nix/sources.json	/^        "rev": "33e875b31c8b811a0a47908884a5e2339106bbe8",$/;"	s	object:vim-eunuch
+rev	nix/sources.json	/^        "rev": "35ea4d2b9072594b6c0ccf87bde7978ed9f94755",$/;"	s	object:vim-polyglot
+rev	nix/sources.json	/^        "rev": "377e62d8010ae3a65ee19b88328e4f3a5e54eca5",$/;"	s	object:lightline.vim
+rev	nix/sources.json	/^        "rev": "3abadaefa5e190ff346f9aeb309465ac890495c2",$/;"	s	object:ormolu
+rev	nix/sources.json	/^        "rev": "437e1f69be786bfbd06a611530bbd2fac6af1d35",$/;"	s	object:nixpkgs
+rev	nix/sources.json	/^        "rev": "43c4fb3fd40e5eaf2476eb88ef983eb56789c522",$/;"	s	object:vim-mundo
+rev	nix/sources.json	/^        "rev": "44267b436d3d73c8adfb23537a1b86862239ad12",$/;"	s	object:vim-matchit
+rev	nix/sources.json	/^        "rev": "467c3277884240f7b5430f8f4d600e3415c38f3b",$/;"	s	object:fzf.vim
+rev	nix/sources.json	/^        "rev": "47187740b88f9dab213f44678800cc797223808e",$/;"	s	object:vim-tmux-clipboard
+rev	nix/sources.json	/^        "rev": "47218f1b8f971925241b1b307a1e770a7c220b5e",$/;"	s	object:dwarffs
+rev	nix/sources.json	/^        "rev": "5130596a65330a4e8523d3ac1582f6c31ea6bc63",$/;"	s	object:vim-rhubarb
+rev	nix/sources.json	/^        "rev": "5300241b41243cb8962fad284f0004afad187dad",$/;"	s	object:nixpkgs-mozilla
+rev	nix/sources.json	/^        "rev": "56db16f8d3825c4d066c2faf05315c2b208cd5f5",$/;"	s	object:vim-signify
+rev	nix/sources.json	/^        "rev": "61d5029310c69bde700b2d46a454f80859b5af17",$/;"	s	object:is.vim
+rev	nix/sources.json	/^        "rev": "64c9f3d36d632b1657616c06ea8f08f14cf6438d",$/;"	s	object:vimwiki
+rev	nix/sources.json	/^        "rev": "6bc3dd1294a22e897f0dcf8dd72b85f350e306bc",$/;"	s	object:vim-signature
+rev	nix/sources.json	/^        "rev": "6df617ebc0695bd9839a4fe365a08df13d24bc05",$/;"	s	object:scratch.vim
+rev	nix/sources.json	/^        "rev": "6e01000280edc9c9c56ef7b1d59977fc93e3bf4c",$/;"	s	object:deoplete.nvim
+rev	nix/sources.json	/^        "rev": "73322bc61dfcace6c22d1ae5c043b2b72ad94c3e",$/;"	s	object:pypi2nix
+rev	nix/sources.json	/^        "rev": "7afd63b4552b0827622ae27ff4c9eca056dd3521",$/;"	s	object:vim-sneak
+rev	nix/sources.json	/^        "rev": "7e4da6e78002344d499af9b6d8d5d6fcd7c92125",$/;"	s	object:vim-abolish
+rev	nix/sources.json	/^        "rev": "8fdf78292bb3aed1c9de880be7e03efdbf23d306",$/;"	s	object:vim-tmux-navigator
+rev	nix/sources.json	/^        "rev": "92148680060ed68f24738128d8489f4f9387d2ff",$/;"	s	object:all-hies
+rev	nix/sources.json	/^        "rev": "a1931d473d6600ccf7e426158b79c9df29463dda",$/;"	s	object:lightline-ale
+rev	nix/sources.json	/^        "rev": "a21c2fa3ea2b88e698db6fc151d9c7259ae14d96",$/;"	s	object:nixos-unstable
+rev	nix/sources.json	/^        "rev": "a4e28cab77ad07fc8a0ebb62a982768c02eb287c",$/;"	s	object:split-term.vim
+rev	nix/sources.json	/^        "rev": "aa4f8a4bec54cd7c1ce3a9fb15b3572015764476",$/;"	s	object:ale
+rev	nix/sources.json	/^        "rev": "aa59077c635ab21b251bd8cb4dc24c415e64a58e",$/;"	s	object:tmux-better-mouse-mode
+rev	nix/sources.json	/^        "rev": "ae310b52a99e1fe41110e7ac07f6e477c612b32c",$/;"	s	object:nixfmt
+rev	nix/sources.json	/^        "rev": "bb8fb14e00f8fc1eec27dd39dcc605aac43328a3",$/;"	s	object:vim-hocon
+rev	nix/sources.json	/^        "rev": "bf90d8be447de667f4532b934d1a70881be56dd8",$/;"	s	object:vim-endwise
+rev	nix/sources.json	/^        "rev": "c2862cdf19ebf9ce3d56c7ddf73f7f4c3c2f750e",$/;"	s	object:gitalias
+rev	nix/sources.json	/^        "rev": "c8db7a8a16ee9d54103cade6e766509e1d1c8d7b",$/;"	s	object:nixos
+rev	nix/sources.json	/^        "rev": "c947ad2b6a16983724a0153bdf7f66d7a80a32ca",$/;"	s	object:vim-repeat
+rev	nix/sources.json	/^        "rev": "cc58baabeabc7b83768e25b852bf89c34756bf90",$/;"	s	object:vim-hybrid
+rev	nix/sources.json	/^        "rev": "cfaecb9e22b45373bb4940010ce63a89073f6d8b",$/;"	s	object:vim-numbertoggle
+rev	nix/sources.json	/^        "rev": "d03f7ebeb0cea0311d23888adb1d62efcf04021a",$/;"	s	object:ferret
+rev	nix/sources.json	/^        "rev": "db0137dfad4690621e01dbae780fb4a2dd7dbf27",$/;"	s	object:rust.vim
+rev	nix/sources.json	/^        "rev": "e71404f92990aa4718925ade568427c0d8631469",$/;"	s	object:vim-spirv
+rev	nix/sources.json	/^        "rev": "e7ab7544f15e59de2d9a1b42f58e590938e496e7",$/;"	s	object:neovim-sensible
+rev	nix/sources.json	/^        "rev": "e80960715c09aef8ab9204848ed1683805a93a33",$/;"	s	object:vim-tmux-focus-events
+rev	nix/sources.json	/^        "rev": "f3e56ff60fe3fb5ebc891cbe5fd12cd8c59ae6ef",$/;"	s	object:fugitive-gitlab.vim
+rev	nix/sources.json	/^        "rev": "f51a26d3710629d031806305b6c8727189cd1935",$/;"	s	object:vim-surround
+rev	nix/sources.json	/^        "rev": "f5c9303cedd67a57121f0cbe69b585fb74ba82d9",$/;"	s	object:home-manager
+rev	nix/sources.json	/^        "rev": "f8238d70f873969fb41bf6a6b07ca63a4c0b82b1",$/;"	s	object:vim-commentary
+rev	nix/sources.json	/^        "rev": "fcce70f1403ba4101668a4c960c577bddbd00f06",$/;"	s	object:vim-vinegar
+rust.vim	nix/sources.json	/^    "rust.vim": {$/;"	o
+scratch.vim	nix/sources.json	/^    "scratch.vim": {$/;"	o
+sha256	nix/sources.json	/^        "sha256": "00hhbqcx21j0738ad5xh92lsykpa0qxhdy1s7wnwc8d3jndmyjwb",$/;"	s	object:vim-repeat
+sha256	nix/sources.json	/^        "sha256": "00qvpp7r7wnccfzfxq9xa4cyxzr25zy32mpxscnbixc7cv5y981x",$/;"	s	object:deoplete.nvim
+sha256	nix/sources.json	/^        "sha256": "01j6727cws8blg1npp54b4w6xa0gpgyzhyws2vqgp8clnlnmqqhi",$/;"	s	object:niv
+sha256	nix/sources.json	/^        "sha256": "03xly0rhy7vj1yj8386r44zgsm8ad2b9f37gssy5zgq8j7jvndkz",$/;"	s	object:ale
+sha256	nix/sources.json	/^        "sha256": "06346ih3hzwszhkj25g4xv5av7292s6sdbrdpx39p0n3kgf5mwww",$/;"	s	object:tmux-better-mouse-mode
+sha256	nix/sources.json	/^        "sha256": "06whnfvmzfdsx9gvkd2nxhx29939gjzibr2xadh54sj8ns646w58",$/;"	s	object:neovim-sensible
+sha256	nix/sources.json	/^        "sha256": "08256z0dh6l1w77p48qh2zhqhpmincsmcc6zvbrm1f1gzfhh3nrx",$/;"	s	object:vim-mundo
+sha256	nix/sources.json	/^        "sha256": "08m5dg77yavria7n7iajkj4kqaw848763680003j2gbrjlhpprpm",$/;"	s	object:vim-signature
+sha256	nix/sources.json	/^        "sha256": "09d81q9na7pvvrmxxqy09ffdzsx5v5dikinb704c9wm4ys2bidr9",$/;"	s	object:vim-commentary
+sha256	nix/sources.json	/^        "sha256": "0aimpcz6vvrkcfgsj0xp12xdy1l83n387rsy74dzk23a220d59na",$/;"	s	object:vim-spirv
+sha256	nix/sources.json	/^        "sha256": "0alargsa6sxdxha6jshax7ff6jy8svzc9yxvsh83f8301zx9vmra",$/;"	s	object:vim-signify
+sha256	nix/sources.json	/^        "sha256": "0aqrqn35xdiy80y7skxfsh3m33n6cdxw6lzz6aspfgzwllx2f0kr",$/;"	s	object:vim-surround
+sha256	nix/sources.json	/^        "sha256": "0b90dfngcssjxmvmjdrlzs0xkly5dhn8rldzzmj75x7z7r1dxchl",$/;"	s	object:vim-pandoc
+sha256	nix/sources.json	/^        "sha256": "0cx3zd7f09prxjfrj201139j00wsw66fx5crw6dhblf4z6mfpgnx",$/;"	s	object:fugitive-gitlab.vim
+sha256	nix/sources.json	/^        "sha256": "0ds6qw2i1r67jhxh9ff36al45bafsmbxxdc127l6iy2vl5wj0d3d",$/;"	s	object:vim-tmux-focus-events
+sha256	nix/sources.json	/^        "sha256": "0f6kbcs9dzgah76l5ql1xd8qylw2v4iqswaa99krd6gibf1nh4pw",$/;"	s	object:nixfmt
+sha256	nix/sources.json	/^        "sha256": "0g9vsxbrsfcc0n7rq9m0331rcjyv35z0yc0d2cwkg939bzqw75qx",$/;"	s	object:vim-sneak
+sha256	nix/sources.json	/^        "sha256": "0jq91770wsp2waw7pywxjqx59v0vg54gfzirgcd85pg61w22bfla",$/;"	s	object:tabular
+sha256	nix/sources.json	/^        "sha256": "0l1n79cbzvl0c767v6nanbibfc44f6spwpmfj4fi4mfxmvr2mfwx",$/;"	s	object:pypi2nix
+sha256	nix/sources.json	/^        "sha256": "0r72q4wbja6qxk64lhqh6871xlndwi87w5cnxfq9bh7cnrx9dzhy",$/;"	s	object:vim-polyglot
+sha256	nix/sources.json	/^        "sha256": "0sm5rv6z0s80l9c39hijhnfggvgmi24ac6d9a1k58pzjz6i9w2vr",$/;"	s	object:vim-unimpaired
+sha256	nix/sources.json	/^        "sha256": "0vad1afra51qdywv8rx9p96z943i8l431pq1ax2a0jc2dbm3vqng",$/;"	s	object:gitalias
+sha256	nix/sources.json	/^        "sha256": "0vfqrmmd4m67lqym943xkskznc6mx9px7m0fqrmni1j6rc6nsjzp",$/;"	s	object:vim-gutentags
+sha256	nix/sources.json	/^        "sha256": "0vqrb12bsp1dczff3i5pajzhjwz035rxg8vznrgj5p6j7mb2vcnd",$/;"	s	object:ormolu
+sha256	nix/sources.json	/^        "sha256": "0w6ckm931zpm1k3w02gl58hgfxzfy53sgcc9m8jz3vgi3zz0vki2",$/;"	s	object:vim-hocon
+sha256	nix/sources.json	/^        "sha256": "0wwfl0bafwh9p8lzic75d0nl6v5dnpfid7fbiffr0i72agp0gcq7",$/;"	s	object:vimwiki
+sha256	nix/sources.json	/^        "sha256": "0xqzz4pb084wsnglq8z6dhbz3c8l3v44bz0bzf51yqrs6g33ky8k",$/;"	s	object:home-manager
+sha256	nix/sources.json	/^        "sha256": "0y92na4dcfcsj5zbs3m7y6csl3sd46a9968id78cdn9cgg8iwzac",$/;"	s	object:vim-tmux-navigator
+sha256	nix/sources.json	/^        "sha256": "0zxqdyla40xcp0ps362b85bqwl3mp4zfmfdggl0gwvgd5m949yk0",$/;"	s	object:vim-vinegar
+sha256	nix/sources.json	/^        "sha256": "119ah0mx7ais335spdy5apk40wbfvhr1mnvjfs429fvym3xdqfk3",$/;"	s	object:vim-localvimrc
+sha256	nix/sources.json	/^        "sha256": "124kl8x74w2w2d3whh3sjslmmxgi46qspnb990dk63ddqglqahph",$/;"	s	object:scratch.vim
+sha256	nix/sources.json	/^        "sha256": "12vrmbq1r8d6sgyxjwi0s856n1v4vjhrf8wpwq6l4ydmk1bnvjkb",$/;"	s	object:split-term.vim
+sha256	nix/sources.json	/^        "sha256": "153i3kh44ri046va3qdrbvvsv7gy25fsd9pc2yhrg23lvj169zfp",$/;"	s	object:vim-sensible
+sha256	nix/sources.json	/^        "sha256": "15mdn8s9isnscsaggkz552f8hi2yqq9wksymrxkihihv0nwwdgi6",$/;"	s	object:vim-dispatch
+sha256	nix/sources.json	/^        "sha256": "162l2p8md8lfyfjxzlmlz5ky5kvvr6wjmdk8r8lk6ygpkl2b51f7",$/;"	s	object:vim-pandoc-syntax
+sha256	nix/sources.json	/^        "sha256": "16ji4wsxvmy0ll6f34mk1vhcm1w9jh6ip9k91ygpxv51rqxqpps5",$/;"	s	object:nixpkgs
+sha256	nix/sources.json	/^        "sha256": "1a63wjr8myj54ikdi3xs854dmm653m2mk7brzz40m1ajlmw9qsyv",$/;"	s	object:lightline.vim
+sha256	nix/sources.json	/^        "sha256": "1a7rpbvb7dgjfnrh95zg2ia6iiz2mz2xps31msb8h14hcj6dsv6y",$/;"	s	object:vim-tmux-clipboard
+sha256	nix/sources.json	/^        "sha256": "1b3h4mwpi10blzpvgsc0191k4shaw3nw0qd2p82hygbr8vv4g9dv",$/;"	s	object:nixos
+sha256	nix/sources.json	/^        "sha256": "1bnml1gfrzbbp6j1lwcip4k9ncf4br604z4h1snw29qsf0wgcyv3",$/;"	s	object:fzf.vim
+sha256	nix/sources.json	/^        "sha256": "1c3q39121hiw85r9ymiyhz5zsf6bl9pwk4pgj6nh6ckwns4cgcmw",$/;"	s	object:vim-hybrid
+sha256	nix/sources.json	/^        "sha256": "1c5yynl6clq6rvr17ma49npfiw5ssarrn8hdz9vgqwkvf879icmd",$/;"	s	object:rust.vim
+sha256	nix/sources.json	/^        "sha256": "1czx891via5783yk222mhki94wvq75hxxp1xk1d5m90vwqb3azfn",$/;"	s	object:vim-endwise
+sha256	nix/sources.json	/^        "sha256": "1g9rmg8ig3qy03gylh77g6pd42yx2sgxxg1bsbz1f7279dcx0h7f",$/;"	s	object:vim-fugitive
+sha256	nix/sources.json	/^        "sha256": "1h3g3817anicwa9705npssvkwhi876zijyyvv4c86qiklrkn5j9w",$/;"	s	object:nixpkgs-mozilla
+sha256	nix/sources.json	/^        "sha256": "1hpyxcmwrjxhkgkb0w2qpg8gh9bgiqwddyj4zx8hy2g8qnx7z5yj",$/;"	s	object:vim-rhubarb
+sha256	nix/sources.json	/^        "sha256": "1lapmp57sfh3dr0l8qnx8gxxagcc9cagsg9girrcd0sw3ybi7xbz",$/;"	s	object:vim-matchit
+sha256	nix/sources.json	/^        "sha256": "1n35igng3a6d5y4nh5pyb09s6khgcwbr3v0lnh33qb51cv4cnjh4",$/;"	s	object:vim-abolish
+sha256	nix/sources.json	/^        "sha256": "1nnf6y62mc0rj7hbrapfkmr91ypsqkzhwgpfx7pahz8m3a2324q6",$/;"	s	object:is.vim
+sha256	nix/sources.json	/^        "sha256": "1rrmvv7ali50rpbih1s0fj00a3hjspwinx2y6nhwac7bjsnqqdwi",$/;"	s	object:vim-numbertoggle
+sha256	nix/sources.json	/^        "sha256": "1vbs9ib4hc3dqyv5cwrib2wm7qdmzh84d01x1xh1c7i1w0949h66",$/;"	s	object:dwarffs
+sha256	nix/sources.json	/^        "sha256": "1xadb22kd40swmww0qxmmkcpcq6viy8l167pjck5q32hfngll5d3",$/;"	s	object:vim-eunuch
+sha256	nix/sources.json	/^        "sha256": "1xh6jp1gzmn211bfv7v1r88sh49x1zly16qs3k70qgj9w57zgwwy",$/;"	s	object:ferret
+sha256	nix/sources.json	/^        "sha256": "1yb75f8p09dp4yx5d3w3wvdiflaav9a5202xz9whigk2p9ndwbp5",$/;"	s	object:all-hies
+sha256	nix/sources.json	/^        "sha256": "1z3kxlbz6bqx1dlagcazg04vhk67r8byihzf959c3m0laf2a1w7y",$/;"	s	object:nixos-unstable
+sha256	nix/sources.json	/^        "sha256": "1zmwi4b8sbl3zpzp8hlz7j3gg4p9628s0174pcd2n6mdkfh235g5",$/;"	s	object:lightline-ale
+split-term.vim	nix/sources.json	/^    "split-term.vim": {$/;"	o
+tabular	nix/sources.json	/^    "tabular": {$/;"	o
+tmux-better-mouse-mode	nix/sources.json	/^    "tmux-better-mouse-mode": {$/;"	o
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:ale
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:all-hies
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:deoplete.nvim
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:dwarffs
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:ferret
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:fugitive-gitlab.vim
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:fzf.vim
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:gitalias
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:home-manager
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:is.vim
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:lightline-ale
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:lightline.vim
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:neovim-sensible
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:niv
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:nixfmt
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:nixos
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:nixos-unstable
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:nixpkgs
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:nixpkgs-mozilla
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:ormolu
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:pypi2nix
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:rust.vim
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:scratch.vim
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:split-term.vim
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:tabular
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:tmux-better-mouse-mode
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-abolish
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-commentary
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-dispatch
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-endwise
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-eunuch
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-fugitive
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-gutentags
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-hocon
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-hybrid
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-localvimrc
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-matchit
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-mundo
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-numbertoggle
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-pandoc
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-pandoc-syntax
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-polyglot
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-repeat
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-rhubarb
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-sensible
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-signature
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-signify
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-sneak
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-spirv
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-surround
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-tmux-clipboard
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-tmux-focus-events
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-tmux-navigator
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-unimpaired
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vim-vinegar
+type	nix/sources.json	/^        "type": "tarball",$/;"	s	object:vimwiki
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/GEverding\/vim-hocon\/archive\/bb8fb14e00f8fc1eec27dd39dcc/;"	s	object:vim-hocon
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/Gabriel439\/nixfmt\/archive\/ae310b52a99e1fe41110e7ac07f6e/;"	s	object:nixfmt
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/GitAlias\/gitalias\/archive\/c2862cdf19ebf9ce3d56c7ddf73f7/;"	s	object:gitalias
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/Infinisil\/all-hies\/archive\/92148680060ed68f24738128d848/;"	s	object:all-hies
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/NHDaly\/tmux-better-mouse-mode\/archive\/aa59077c635ab21b2/;"	s	object:tmux-better-mouse-mode
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/NixOS\/nixpkgs-channels\/archive\/a21c2fa3ea2b88e698db6fc1/;"	s	object:nixos-unstable
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/NixOS\/nixpkgs-channels\/archive\/c8db7a8a16ee9d54103cade6/;"	s	object:nixos
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/NixOS\/nixpkgs\/archive\/437e1f69be786bfbd06a611530bbd2fac/;"	s	object:nixpkgs
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/Shougo\/deoplete.nvim\/archive\/6e01000280edc9c9c56ef7b1d5/;"	s	object:deoplete.nvim
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/christoomey\/vim-tmux-navigator\/archive\/8fdf78292bb3aed1/;"	s	object:vim-tmux-navigator
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/davidtwco\/ale\/archive\/aa4f8a4bec54cd7c1ce3a9fb15b357201/;"	s	object:ale
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/edolstra\/dwarffs\/archive\/47218f1b8f971925241b1b307a1e77/;"	s	object:dwarffs
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/embear\/vim-localvimrc\/archive\/0b36a367f4d46b7f060836fcb/;"	s	object:vim-localvimrc
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/geoffharcourt\/vim-matchit\/archive\/44267b436d3d73c8adfb2/;"	s	object:vim-matchit
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/godlygeek\/tabular\/archive\/339091ac4dd1f17e225fe7d57b48a/;"	s	object:tabular
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/haya14busa\/is.vim\/archive\/61d5029310c69bde700b2d46a454f/;"	s	object:is.vim
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/itchyny\/lightline.vim\/archive\/377e62d8010ae3a65ee19b883/;"	s	object:lightline.vim
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/jeffkreeftmeijer\/neovim-sensible\/archive\/e7ab7544f15e59/;"	s	object:neovim-sensible
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/jeffkreeftmeijer\/vim-numbertoggle\/archive\/cfaecb9e22b45/;"	s	object:vim-numbertoggle
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/junegunn\/fzf.vim\/archive\/467c3277884240f7b5430f8f4d600e/;"	s	object:fzf.vim
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/justinmk\/vim-sneak\/archive\/7afd63b4552b0827622ae27ff4c9/;"	s	object:vim-sneak
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/kbenzie\/vim-spirv\/archive\/e71404f92990aa4718925ade56842/;"	s	object:vim-spirv
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/kshenoy\/vim-signature\/archive\/6bc3dd1294a22e897f0dcf8dd/;"	s	object:vim-signature
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/ludovicchabant\/vim-gutentags\/archive\/2317cec345a23e2872/;"	s	object:vim-gutentags
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/maximbaz\/lightline-ale\/archive\/a1931d473d6600ccf7e42615/;"	s	object:lightline-ale
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/mhinz\/vim-signify\/archive\/56db16f8d3825c4d066c2faf05315/;"	s	object:vim-signify
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/mozilla\/nixpkgs-mozilla\/archive\/5300241b41243cb8962fad2/;"	s	object:nixpkgs-mozilla
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/mtth\/scratch.vim\/archive\/6df617ebc0695bd9839a4fe365a08d/;"	s	object:scratch.vim
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/nix-community\/pypi2nix\/archive\/73322bc61dfcace6c22d1ae5/;"	s	object:pypi2nix
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/nmattia\/niv\/archive\/2ecfd86b631714b457e56d70dd83fa60435/;"	s	object:niv
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/roxma\/vim-tmux-clipboard\/archive\/47187740b88f9dab213f44/;"	s	object:vim-tmux-clipboard
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/rust-lang\/rust.vim\/archive\/db0137dfad4690621e01dbae780f/;"	s	object:rust.vim
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/rycee\/home-manager\/archive\/f5c9303cedd67a57121f0cbe69b5/;"	s	object:home-manager
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/sheerun\/vim-polyglot\/archive\/35ea4d2b9072594b6c0ccf87bd/;"	s	object:vim-polyglot
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/shumphrey\/fugitive-gitlab.vim\/archive\/f3e56ff60fe3fb5eb/;"	s	object:fugitive-gitlab.vim
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/simnalamburt\/vim-mundo\/archive\/43c4fb3fd40e5eaf2476eb88/;"	s	object:vim-mundo
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tmux-plugins\/vim-tmux-focus-events\/archive\/e80960715c09/;"	s	object:vim-tmux-focus-events
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tpope\/vim-abolish\/archive\/7e4da6e78002344d499af9b6d8d5d/;"	s	object:vim-abolish
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tpope\/vim-commentary\/archive\/f8238d70f873969fb41bf6a6b0/;"	s	object:vim-commentary
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tpope\/vim-dispatch\/archive\/1206e1474fc613caeb1ba56d36b7/;"	s	object:vim-dispatch
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tpope\/vim-endwise\/archive\/bf90d8be447de667f4532b934d1a7/;"	s	object:vim-endwise
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tpope\/vim-eunuch\/archive\/33e875b31c8b811a0a47908884a5e2/;"	s	object:vim-eunuch
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tpope\/vim-fugitive\/archive\/0e6f72b005312225ffb472905009/;"	s	object:vim-fugitive
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tpope\/vim-repeat\/archive\/c947ad2b6a16983724a0153bdf7f66/;"	s	object:vim-repeat
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tpope\/vim-rhubarb\/archive\/5130596a65330a4e8523d3ac1582f/;"	s	object:vim-rhubarb
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tpope\/vim-sensible\/archive\/2d9f34c09f548ed4df213389caa2/;"	s	object:vim-sensible
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tpope\/vim-surround\/archive\/f51a26d3710629d031806305b6c8/;"	s	object:vim-surround
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tpope\/vim-unimpaired\/archive\/08e66532bffed445c949ae0a05/;"	s	object:vim-unimpaired
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tpope\/vim-vinegar\/archive\/fcce70f1403ba4101668a4c960c57/;"	s	object:vim-vinegar
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/tweag\/ormolu\/archive\/3abadaefa5e190ff346f9aeb309465ac89/;"	s	object:ormolu
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/vim-pandoc\/vim-pandoc-syntax\/archive\/0d1129e5cf1b0e3a90/;"	s	object:vim-pandoc-syntax
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/vim-pandoc\/vim-pandoc\/archive\/2bbb80576a62f58417e05d860/;"	s	object:vim-pandoc
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/vimlab\/split-term.vim\/archive\/a4e28cab77ad07fc8a0ebb62a/;"	s	object:split-term.vim
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/vimwiki\/vimwiki\/archive\/64c9f3d36d632b1657616c06ea8f08f/;"	s	object:vimwiki
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/w0ng\/vim-hybrid\/archive\/cc58baabeabc7b83768e25b852bf89c/;"	s	object:vim-hybrid
+url	nix/sources.json	/^        "url": "https:\/\/github.com\/wincent\/ferret\/archive\/d03f7ebeb0cea0311d23888adb1d62ef/;"	s	object:ferret
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:ale
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:all-hies
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:deoplete.nvim
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:dwarffs
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:ferret
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:fugitive-gitlab.vim
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:fzf.vim
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:gitalias
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:home-manager
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:is.vim
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:lightline-ale
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:lightline.vim
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:neovim-sensible
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:niv
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:nixfmt
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:nixos
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:nixos-unstable
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:nixpkgs
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:nixpkgs-mozilla
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:ormolu
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:pypi2nix
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:rust.vim
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:scratch.vim
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:split-term.vim
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:tabular
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:tmux-better-mouse-mode
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-abolish
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-commentary
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-dispatch
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-endwise
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-eunuch
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-fugitive
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-gutentags
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-hocon
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-hybrid
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-localvimrc
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-matchit
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-mundo
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-numbertoggle
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-pandoc
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-pandoc-syntax
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-polyglot
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-repeat
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-rhubarb
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-sensible
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-signature
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-signify
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-sneak
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-spirv
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-surround
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-tmux-clipboard
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-tmux-focus-events
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-tmux-navigator
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-unimpaired
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vim-vinegar
+url_template	nix/sources.json	/^        "url_template": "https:\/\/github.com\/<owner>\/<repo>\/archive\/<rev>.tar.gz"$/;"	s	object:vimwiki
+vim-abolish	nix/sources.json	/^    "vim-abolish": {$/;"	o
+vim-commentary	nix/sources.json	/^    "vim-commentary": {$/;"	o
+vim-dispatch	nix/sources.json	/^    "vim-dispatch": {$/;"	o
+vim-endwise	nix/sources.json	/^    "vim-endwise": {$/;"	o
+vim-eunuch	nix/sources.json	/^    "vim-eunuch": {$/;"	o
+vim-fugitive	nix/sources.json	/^    "vim-fugitive": {$/;"	o
+vim-gutentags	nix/sources.json	/^    "vim-gutentags": {$/;"	o
+vim-hocon	nix/sources.json	/^    "vim-hocon": {$/;"	o
+vim-hybrid	nix/sources.json	/^    "vim-hybrid": {$/;"	o
+vim-localvimrc	nix/sources.json	/^    "vim-localvimrc": {$/;"	o
+vim-matchit	nix/sources.json	/^    "vim-matchit": {$/;"	o
+vim-mundo	nix/sources.json	/^    "vim-mundo": {$/;"	o
+vim-numbertoggle	nix/sources.json	/^    "vim-numbertoggle": {$/;"	o
+vim-pandoc	nix/sources.json	/^    "vim-pandoc": {$/;"	o
+vim-pandoc-syntax	nix/sources.json	/^    "vim-pandoc-syntax": {$/;"	o
+vim-polyglot	nix/sources.json	/^    "vim-polyglot": {$/;"	o
+vim-repeat	nix/sources.json	/^    "vim-repeat": {$/;"	o
+vim-rhubarb	nix/sources.json	/^    "vim-rhubarb": {$/;"	o
+vim-sensible	nix/sources.json	/^    "vim-sensible": {$/;"	o
+vim-signature	nix/sources.json	/^    "vim-signature": {$/;"	o
+vim-signify	nix/sources.json	/^    "vim-signify": {$/;"	o
+vim-sneak	nix/sources.json	/^    "vim-sneak": {$/;"	o
+vim-spirv	nix/sources.json	/^    "vim-spirv": {$/;"	o
+vim-surround	nix/sources.json	/^    "vim-surround": {$/;"	o
+vim-tmux-clipboard	nix/sources.json	/^    "vim-tmux-clipboard": {$/;"	o
+vim-tmux-focus-events	nix/sources.json	/^    "vim-tmux-focus-events": {$/;"	o
+vim-tmux-navigator	nix/sources.json	/^    "vim-tmux-navigator": {$/;"	o
+vim-unimpaired	nix/sources.json	/^    "vim-unimpaired": {$/;"	o
+vim-vinegar	nix/sources.json	/^    "vim-vinegar": {$/;"	o
+vimwiki	nix/sources.json	/^    "vimwiki": {$/;"	o
