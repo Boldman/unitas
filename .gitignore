@@ -6,3 +6,4 @@ hardware-configuration.nix
 configuration.nix
 *.default
 *.zip
+tags

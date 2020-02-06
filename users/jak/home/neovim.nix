@@ -13,7 +13,7 @@
     withPython = true;
     withPython3 = true;
     package = pkgs.neovim-unwrapped;
-    plugins = 
+    plugins =
 			let
           sources = import ../../../nix/sources.nix;
         in
@@ -30,16 +30,21 @@
 					];
 		extraConfig =
 		''
-			 set number
+			""General settings
+       "Show relative numbers and current line number
+       set number
 			 set relativenumber
-       
+       " Shortcutting split navigation, saving a keypress:
+       map <C-h> <C-w>h
+       map <C-j> <C-w>j
+       map <C-k> <C-w>k
+       map <C-l> <C-w>l
+
        "Vimwiki Settings
        let g:vimwiki_list = [{'path': '~/unitas/wiki/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
        "EditorConfig settings
        let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
-
-
 
 		'';
   };
