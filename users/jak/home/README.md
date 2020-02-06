@@ -41,6 +41,10 @@ With such a strong focus on performance, included features are carefully conside
 By making sane choices for defaults, Alacritty requires no additional setup.
 However, it does allow configuration of many aspects of the terminal through Home-Manager.
 
+<h3><img width="70" alt="fish logo" src="https://fishshell.com/assets/img/Terminal_Logo_CRT_Small.png">fish</h3>
+
+<h3><img width="150" alt="starship logo" src="https://raw.githubusercontent.com/starship/starship/master/media/logo.png"></h3>
+
 <h3><img width="150" alt="Neovim logo" src="https://raw.githubusercontent.com/neovim/neovim.github.io/master/images/logo%402x.png"></h3>
 
 <h3><img width="150" alt="Rofi Logo" src="https://cdn.slant.co/d6008a78-ea3b-4c11-9f31-760fd7353445/-/format/jpeg/-/progressive/yes/-/preview/480x480/"></h3>
@@ -61,6 +65,8 @@ Would like to manage rss feeds on my machine rather than just on my phone.
 <h3><img width="50" alt="mutt logo" src="https://raw.githubusercontent.com/neomutt/neomutt.github.io/master/images/mutt-64x64.png">NeoMutt</h3>
 I want to setup local inbox, but not priority right now.
 
+<h3><img width="150" alt="oh-my-zsh logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Oh_My_Zsh_logo.png/220px-Oh_My_Zsh_logo.png"></h3>
+
 #### Disnix
 Nix based service deployment, want to use this to deploy services while using Nixops for infrastructure
 
@@ -74,5 +80,5 @@ I want to deploy are person build farm using this but for now I'm using [Hercule
 [Nixops]: https://nixos.org/nixops/
 [Niv]: https://github.com/nmattia/niv
 [lorri]: https://github.com/target/lorri
-[Hercules]: https://hercules-ci.com
+[Hercules]: https://hercules-ci.comhttps://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Oh_My_Zsh_logo.png/220px-Oh_My_Zsh_logo.png
 [Alacritty]: https://github.com/alacritty/alacritty
