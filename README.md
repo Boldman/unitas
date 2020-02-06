@@ -1,6 +1,9 @@
 # Unitas
-This repo in my personal [[monorepo]] containing my machine and user configurations.
-This project in managed by a [[Nix]] based tool-chain.
+
+[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
+
+This repo in my personal [monorepo][] containing my machine and user configurations.
+This project in managed by a [Nix][] based tool-chain.
 
 Inspired by [Veritas][] made by davidtwco and [Luke Smith][]'s [voidrice][] and [LARBS][].
 
@@ -13,7 +16,7 @@ The structure of this repository is described below:
 | `./deployments`           | network modules manged by Nixops                                    |
 | `./hosts`                 | top-level expressions specific to individual machines               |
 | `./modules`               | re-usable configuration modules                                     |
-| `./nix`                   | [[Niv]] managed dependencies and `nixpkgs.config`                   |
+| `./nix`                   | [Niv][] managed dependencies and `nixpkgs.config`                   |
 | `./pkgs`                  | custom packages                                                     |
 | `./profiles`              | common configurations shared between hosts                          |
 | `./shells`                | contains development shells                                         |
