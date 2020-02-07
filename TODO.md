@@ -2,6 +2,17 @@
 
 ### Priority
 
+### Documentation
+- [ ] Seperate Nix Ecosystem desciption from home/README to root README
+- [ ] Describe use of Home-Manger in jak/README
+- [ ] Describe using nix for configuring programs (ie. single file manages extra programs and varibles)
+- [ ] Document Hardware
+  - [x] HalX220
+  - [ ] Iros
+  - [ ] Lerna
+  - [ ] Helvault
+  - [ ] Charon
+  - [ ] Aurelia
 
 ### Hosts
 - [ ] HalX220
@@ -26,12 +37,16 @@
 - [ ] Taskwarrior
   - [ ] timewarrior
   - [ ] bugwarrior
+  - [ ] TASKDIR = unitas/.tasks
 - [ ] Git
   - [ ] Server *(Gitea)*
   - [ ] git-bug
+- [ ] Spaceship
 
 ### Services
 - [ ] Hydra
 - [ ] Email
 - [ ] K8s
 - [ ] Home-Assistant
+- [ ] Matrix Chat
+- [ ] Nextcloud
