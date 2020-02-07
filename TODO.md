@@ -50,3 +50,4 @@
 - [ ] Home-Assistant
 - [ ] Matrix Chat
 - [ ] Nextcloud
+- [ ] MPD
