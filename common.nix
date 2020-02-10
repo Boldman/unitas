@@ -65,11 +65,11 @@ in
       };
       buildMachines = [ {
         hostName = "iroas";
-        system = ["x86_64-linux"];
+        system = "x86_64-linux";
         maxJobs = 16;
         speedFactor = 3;
         supportedFeatures = [ "nixos-test" "benchmark" "big-parallel" "kvm" ];
-	      mandatoryFeatures = [ ];
+        mandatoryFeatures = [ ];
 	    }] ;
 	    distributedBuilds = true;
 	    # optional, useful when the builder has a faster internet connection than yours

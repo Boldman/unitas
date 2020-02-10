@@ -18,7 +18,7 @@
     };
     kernelPackages = pkgs.linuxPackages_latest;
     tmpOnTmpfs = true;
-    initrd.avaibleKernelModules = ["xhci_pci" "ahci" "ohci_pci" "ehci_pci" "usb_storage" "sd_mod" "rtsx_pci_sdmmc" ];
+#    initrd.avaibleKernelModules = ["xhci_pci" "ahci" "ohci_pci" "ehci_pci" "usb_storage" "sd_mod" "rtsx_pci_sdmmc" ];
     kernelModules = [ "kvm-amd" "wl" ];
     extraModulePackages = [ config.boot.kernelPackages.broadcom_sta ];
   };
