@@ -92,7 +92,7 @@ in
       # Arbitrary-precision calculator
       bc
       # Password manager
-      bitwarden-cli
+      #bitwarden-cli
       # Copy files/archives/repositories into the nix store.
       nix-prefetch-scripts
       # Index the nix store (provides `nix-locate`).
