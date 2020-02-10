@@ -70,7 +70,7 @@
             return a:fallback_path
           endfunction
 
-      let g:ale_nix_nixpkgsfmt_executable = '${nixpkgs-fmt}/bin/nixpkgs-fmt'
+      let g:ale_nix_nixpkgsfmt_executable = '${unstable.nixpkgs-fmt}/bin/nixpkgs-fmt'
       let g:gutentags_ctags_executable = '${universal-ctags}/bin/ctags'
       let termdebugger = '${gdb}/bin/gdb'
       let g:ale_vim_vint_executable = '${vim-vint}/bin/vint'
