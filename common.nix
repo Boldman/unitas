@@ -63,6 +63,12 @@ in
         enable = true;
         keys = config.users.users.jak.openssh.authorizedKeys.keys;
       };
+      buildMachines [ {
+        hostName = "iroas";
+        system = ["x86_64-linux"];
+        maxJobs = 16;
+        speedFactor = 3;
+
     };
     # This configuration only applies to the NixOS configuration! Not home-manager or nix-shell.
     nixpkgs ={
