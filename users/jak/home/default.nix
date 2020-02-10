@@ -15,7 +15,7 @@
 #	./kakoune.nix
     ./language.nix
     ./less.nix
-    ./lorri.nix
+#    ./lorri.nix
     ./mpd.nix
     ./mpv.nix
     ./neovim.nix
