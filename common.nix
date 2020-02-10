@@ -14,7 +14,7 @@ in
       # Make memtest available as a boot option.
       loader = {
         grub.memtest86.enable = true;
-        systemd-boot.memtest86.enable = true;
+        #systemd-boot.memtest86.enable = true;
       };
       # Enable support for nfs, ntfs.
       supportedFilesystems = [ "nfs" "ntfs"];
