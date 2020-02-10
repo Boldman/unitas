@@ -43,7 +43,7 @@ in
       psmisc
       # DMI table decoder.
       dmidecode
-      # Tools for working with usb devices 
+      # Tools for working with usb devices
       usbutils
       # Collection of common network programs
       inetutils
@@ -60,7 +60,7 @@ in
       # Query/control network driver and hardware settings.
       ethtool
       # eBPF tracing language and frontend.
-      linuxPackages.bpftrace
+      #linuxPackages.bpftrace
       # Partition manipulation program.
       parted
       # exFAT filesystem implementation.
@@ -148,8 +148,8 @@ in
       unstable.nix-du
       # Reading hardware sensors
       lm_sensors
-      # Hakell toolchain manager - normally wouldn't install this globally and instead rely on 
-      # `shell.nix` files, but using the Nix-integration in stack is easier and avoids the 
+      # Hakell toolchain manager - normally wouldn't install this globally and instead rely on
+      # `shell.nix` files, but using the Nix-integration in stack is easier and avoids the
       # downsides of having stack installed globally for my purposes
       unstable.stack
       # NFS debugging utilities
