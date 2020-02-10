@@ -8,7 +8,7 @@
   };
 
   system = {
-    stateVersion = "19.09";
+    stateVersion = "19.03";
     autoUpgrade.channel = "https://nixos.org/channels/nixos-19.09";
   };
   nix.maxJobs = lib.mkDefault 16;
