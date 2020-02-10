@@ -2,6 +2,11 @@
 
 {
   # This value determines the NixOS release this system is
+  networking = {
+    hostName = "iroas";
+    networkmanager.enable = true;
+  };
+
   system = {
     stateVersion = "19.09";
     autoUpgrade.channel = "https://nixos.org/channels/nixos-19.09";
@@ -13,24 +18,26 @@
 
   boot = {
     loader = {
-      systemd-boot.enable = true;
-      efi.canTouchEfiVariables = true;
+      grub = {
+        enable = true;
+        version = 2;
+        device = "/dev/sdb";
+      };
+
+     # systemd-boot.enable = true;
+     # efi.canTouchEfiVariables = true;
     };
     kernelPackages = pkgs.linuxPackages_latest;
     tmpOnTmpfs = true;
-#    initrd.avaibleKernelModules = ["xhci_pci" "ahci" "ohci_pci" "ehci_pci" "usb_storage" "sd_mod" "rtsx_pci_sdmmc" ];
+    initrd.availableKernelModules = ["xhci_pci" "ahci" "ohci_pci" "ehci_pci" "usb_storage" "sd_mod" "rtsx_pci_sdmmc" ];
     kernelModules = [ "kvm-amd" "wl" ];
     extraModulePackages = [ config.boot.kernelPackages.broadcom_sta ];
   };
 
   fileSystems = {
     "/" = {
-     device = "/dev/disk/by-uuid/d923c5d4-3c1f-4ba1-82ed-172020c5d0ef";
+     device = "/dev/disk/by-uuid/87adf855-d0e4-4229-aa88-66141faa6498";
       fsType = "ext4";
-    };
-    "/boot" =
-    { device = "/dev/disk/by-uuid/D168-E9A9";
-      fsType = "vfat";
     };
     "/tmp" = {
       device = "tmpfs";
@@ -38,7 +45,7 @@
     };
   };
   swapDevices =
-  [ { device = "/dev/disk/by-uuid/821ac616-1f9c-41d2-9de5-fc24ef54ac28"; } ];
+  [ { device = "/dev/disk/by-uuid/a6de4132-e848-48d2-b9aa-5dc50ee91b1b"; } ];
 
   hardware.cpu.amd.updateMicrocode = true;
 
