@@ -63,13 +63,21 @@ in
         enable = true;
         keys = config.users.users.jak.openssh.authorizedKeys.keys;
       };
-      buildMachines [ {
+      buildMachines = [ {
         hostName = "iroas";
         system = ["x86_64-linux"];
         maxJobs = 16;
         speedFactor = 3;
-
+        supportedFeatures = [ "nixos-test" "benchmark" "big-parallel" "kvm" ];
+	      mandatoryFeatures = [ ];
+	    }] ;
+	    distributedBuilds = true;
+	    # optional, useful when the builder has a faster internet connection than yours
+	    extraOptions = ''
+		    builders-use-substitutes = true
+	      '';
     };
+
     # This configuration only applies to the NixOS configuration! Not home-manager or nix-shell.
     nixpkgs ={
       config = import ./nix/config.nix;

@@ -4,7 +4,7 @@
   # This value determines the NixOS release this system is
   system = {
     stateVersion = "19.09";
-    autoUpgrade.channel = "https://nixos.org/channels/nixos-19.09
+    autoUpgrade.channel = "https://nixos.org/channels/nixos-19.09";
   };
   nix.maxJobs = lib.mkDefault 16;
   powerManagement.cpuFreqGovernor = lib.mkDefault "performance";
@@ -38,16 +38,15 @@
     };
   };
   swapDevices =
-  [ { device = "/dev/disk/by-uuid/821ac616-1f9c-41d2-9de5-fc24ef54ac28"; }];
+  [ { device = "/dev/disk/by-uuid/821ac616-1f9c-41d2-9de5-fc24ef54ac28"; } ];
 
   hardware.cpu.amd.updateMicrocode = true;
 
   unitas.jak = {
-    email.address = "boldman@linux.com";
     dotfiles.headless = true;
   };
 
-  font = {
+  fonts = {
     enableFontDir = true;
     enableGhostscriptFonts = true;
     fonts = with pkgs; [
