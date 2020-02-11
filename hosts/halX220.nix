@@ -3,10 +3,10 @@
 {
   # This value determines the NixOS release this system is
   system = {
-    stateVersion = "19.03";
-    autoUpgrade.channel = "https;//nixos.org/channels/nixos-unstable";
+    stateVersion = "19.09";
+    autoUpgrade.channel = "https://nixos.org/channels/nixos-unstable";
   };
-  nix.maxJobs = lib.mkDefault 8;
+  nix.maxJobs = lib.mkDefault 1;
   powerManagement.cpuFreqGovernor = lib.mkDefault "powersave";
 
   imports = [ ../common.nix ];
@@ -23,8 +23,8 @@
     kernelModules = [ "kvm-intel" ];
   };
 
-  fileSystems = { 
-    "/" = { 
+  fileSystems = {
+    "/" = {
       device = "/dev/disk/by-uuid/754c12bf-cabc-4fa2-b73c-1e8cc494a9a9";
       fsType = "xfs";
     };
