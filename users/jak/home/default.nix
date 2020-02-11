@@ -9,6 +9,7 @@
     ./firefox.nix
     ./fish.nix
     ./fzf.nix
+    ./git.nix
     ./home-manager.nix
     ./htop.nix
     ./i3.nix
