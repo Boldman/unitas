@@ -6,6 +6,7 @@ let
   cfg = config.unitas.jak;
 in
 {
+  home.packages = with pkgs; [ git-crypt git-bug git-dit ];
   programs.git = {
     aliases = {
       ps = "push";
