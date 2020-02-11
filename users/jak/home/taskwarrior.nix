@@ -1,13 +1,12 @@
-{ config, pkgs, ...}:
+{ pkgs, ... }:
 
-# This file contains the configuration for taskwarrior.
+# This file contains the configuration for info.
 
 {
-
-
+  home.packages = with pkgs; [ python37Packages.bugwarrior timewarrior tasknc tasksh ];
   programs.taskwarrior = {
     enable = true;
-
-
+  };
 }
-# vim:filetype=nix:foldmethod=marker:foldlevel=0:ts=2:sts=2:sw=2:nowrap
+
+# vim:foldmethod=marker:foldlevel=0:ts=2:sts=2:sw=2:nowrap
