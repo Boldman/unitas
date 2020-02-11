@@ -49,6 +49,10 @@
 
   hardware.cpu.amd.updateMicrocode = true;
 
+  users.users.root.openssh.authorizedKeys.keys = [
+  (builtins.readFile ../users/jak/public_keys/id_ed25519.pub)
+  ];
+
   unitas.jak = {
     dotfiles.headless = true;
   };

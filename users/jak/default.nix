@@ -50,7 +50,7 @@ in
         ];
         uid = 1000;
         shell = pkgs.unstable.fish;
-        hashedPassword = "$6$qs0Z2zH.zpwMRu$.tloNjneyofJOJ0ple./d8sb7.CLve1NYjIt1LeSQJsYyzBxcD5l3/Xdnr5.JmEe/44BdOC31Kvl9v1PYYPpT/";
+        hashedPassword = "$6$.Ak8UwJF1v13lZ$Ji0WeEg1ssLxLbZRZOM6g5Ltggp5hpq32.crWz0tRlfTauQERv5CdBaGGClRBskU0BnpncJJIxe5SS8/6O9Ko1";
         isNormalUser = true;
         openssh.authorizedKeys.keys = [
           (builtins.readFile ./public_keys/id_ed25519.pub)
@@ -59,5 +59,5 @@ in
     };
   };
 }
-      
+
 # vim:filetype=nix:foldmethod=marker:foldlevel=0:ts=2:sts=2:sw=2:nowrap
