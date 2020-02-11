@@ -9,6 +9,7 @@
     ./firefox.nix
     ./fish.nix
     ./fzf.nix
+    ./git.nix
     ./home-manager.nix
     ./htop.nix
     ./i3.nix
@@ -24,7 +25,7 @@
     ./rofi.nix
 #    ./starship.nix
     ./sxhkd.nix
-    ./taskwarrior.nix
+#    ./taskwarrior.nix
     ./termite.nix
     ./tmux.nix
     ./xsession.nix
