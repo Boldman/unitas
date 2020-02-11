@@ -15,7 +15,7 @@
 #	./kakoune.nix
     ./language.nix
     ./less.nix
-    ./lorri.nix
+#    ./lorri.nix
     ./mpd.nix
     ./mpv.nix
     ./neovim.nix
@@ -24,12 +24,13 @@
     ./rofi.nix
 #    ./starship.nix
     ./sxhkd.nix
-    ./taskwarrior.nix
+#    ./taskwarrior.nix
     ./termite.nix
     ./tmux.nix
     ./xsession.nix
   ];
 
+  # This configuration only applies to home-manager, not NixOS or nix-shell.
   nixpkgs = {
     config = import ../../../nix/config.nix;
     overlays = let
