@@ -18,14 +18,8 @@
 
   boot = {
     loader = {
-      grub = {
-        enable = true;
-        version = 2;
-        device = "/dev/sdb";
-      };
-
-     # systemd-boot.enable = true;
-     # efi.canTouchEfiVariables = true;
+     systemd-boot.enable = true;
+     efi.canTouchEfiVariables = true;
     };
     kernelPackages = pkgs.linuxPackages_latest;
     tmpOnTmpfs = true;
@@ -36,16 +30,18 @@
 
   fileSystems = {
     "/" = {
-     device = "/dev/disk/by-uuid/87adf855-d0e4-4229-aa88-66141faa6498";
+     device = "/dev/disk/by-uuid/98ec6e2f-da3a-4a78-aa5a-4f45b0e0b109";
       fsType = "ext4";
+    };
+    "/boot" = {
+      device = "/dev/disk/by-uuid/DC05-788E";
+      fsType = "vfat";
     };
     "/tmp" = {
       device = "tmpfs";
       fsType = "tmpfs";
     };
   };
-  swapDevices =
-  [ { device = "/dev/disk/by-uuid/a6de4132-e848-48d2-b9aa-5dc50ee91b1b"; } ];
 
   hardware.cpu.amd.updateMicrocode = true;
 
@@ -54,7 +50,7 @@
   ];
 
   unitas.jak = {
-    dotfiles.headless = true;
+    dotfiles.headless = false;
   };
 
   fonts = {
