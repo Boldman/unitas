@@ -45,8 +45,12 @@ in
    				];
    	extraConfig =
    	''
-   		""General settings
-       "Show relative numbers and current line number
+   		"" General settings
+       " Enable syntax highlighting
+       syntax enable
+       " Apply color scheme
+       colorscheme hybrid
+       " Show relative numbers and current line number
        set number
    		set relativenumber
        " Shortcutting split navigation, saving a keypress:
@@ -90,7 +94,6 @@ in
        let g:ale_linters = {
        \   'json': [ 'jq' ],
        \   'sh': [ 'shell', 'shellcheck' ],
-       \   'nix': [ 'nixpkgs-fmt', 'remove_trailing_lines', 'trim_whitespace' ],
        \   'vim': [ 'vint' ],
        \   'zsh': [ 'shell', 'shellcheck' ],
        \ }
