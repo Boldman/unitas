@@ -2,6 +2,10 @@
 
 {
   # This value determines the NixOS release this system is
+  networking = {
+    hostName = "HalX220";
+    hostId = "44825cad";
+  };
   system = {
     stateVersion = "19.09";
     autoUpgrade.channel = "https://nixos.org/channels/nixos-unstable";
@@ -17,20 +21,15 @@
       efi.canTouchEfiVariables = true;
     };
     kernelPackages = pkgs.linuxPackages_latest;
-    tmpOnTmpfs = true;
-    plymouth.enable = true;
     initrd.availableKernelModules = [ "ehci_pci" "ahci" "sd_mod" "sdhci_pci"];
     kernelModules = [ "kvm-intel" ];
+    supportedFilesystems = [ "xfs" "ext4" "zfs"];
   };
 
   fileSystems = {
     "/" = {
       device = "/dev/disk/by-uuid/754c12bf-cabc-4fa2-b73c-1e8cc494a9a9";
       fsType = "xfs";
-    };
-    "/tmp" = {
-      device = "tmpfs";
-      fsType = "tmpfs";
     };
     "/home" = {
       device = "/dev/disk/by-uuid/b953f985-7765-4010-8a7b-eb416bacb213";
@@ -66,24 +65,6 @@
       email.address = "boldman@linux.com";
       dotfiles.headless = false;
     };
-  };
-
-  fonts = {
-    enableFontDir = true;
-    enableGhostscriptFonts = true;
-    fonts = with pkgs; [
-      corefonts
-      vistafonts
-      inconsolata
-      terminus_font
-      proggyfonts
-      dejavu_fonts
-      font-awesome-ttf
-      ubuntu_font_family
-      source-code-pro
-      source-sans-pro
-      source-serif-pro
-    ];
   };
 }
 

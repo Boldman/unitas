@@ -9,6 +9,7 @@ let
 in
   {
     boot = {
+      tmpOnTmpfs = true;
       # Clean temporary directory on boot.
       cleanTmpDir = true;
       # Make memtest available as a boot option.
@@ -18,6 +19,8 @@ in
       };
       # Enable support for nfs, ntfs.
       supportedFilesystems = [ "nfs" "ntfs"];
+      # Enable plymouth on graphic based machines
+      plymouth.enable = unitas.jak.headless
     };
 
     hardware = {
@@ -63,14 +66,15 @@ in
         enable = true;
         keys = config.users.users.jak.openssh.authorizedKeys.keys;
       };
-      buildMachines = [ {
-        hostName = "iroas";
-        system = "x86_64-linux";
-        maxJobs = 16;
-        speedFactor = 3;
-        supportedFeatures = [ "nixos-test" "benchmark" "big-parallel" "kvm" ];
-        mandatoryFeatures = [ ];
-	    }] ;
+      buildMachines = [
+        { hostName = "192.168.10.21";
+          system = "x86_64-linux";
+          maxJobs = 16;
+          speedFactor = 3;
+          supportedFeatures = [ "nixos-test" "benchmark" "big-parallel" ];
+          mandatoryFeatures = [ ];
+	      }
+        ] ;
 	    distributedBuilds = true;
 	    # optional, useful when the builder has a faster internet connection than yours
 	    extraOptions = ''
@@ -119,6 +123,7 @@ in
       };
     };
 
+
     sound.mediaKeys = lib.mkIf (!config.unitas.jak.dotfiles.headless) {
       enable = true;
       volumeStep = "5%";
@@ -127,9 +132,23 @@ in
     time.timeZone = "America/Los_Angeles";
 
     users.mutableUsers = false;
+    fonts = {
+      enableFontDir = true;
+      enableGhostscriptFonts = true;
+      fonts = with pkgs; [
+        corefonts
+        vistafonts
+        inconsolata
+        terminus_font
+        proggyfonts
+        dejavu_fonts
+        font-awesome-ttf
+        ubuntu_font_family
+        source-code-pro
+        source-sans-pro
+        source-serif-pro
+      ];
+    };
   }
 
 # vim:filetype=nix:foldmethod=marker:foldlevel=0:ts=2:sts=2:sw=2:nowrap
-
-
-
