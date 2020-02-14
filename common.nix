@@ -20,7 +20,7 @@ in
       # Enable support for nfs, ntfs.
       supportedFilesystems = [ "nfs" "ntfs"];
       # Enable plymouth on graphic based machines
-      plymouth.enable = unitas.jak.headless
+      plymouth.enable = !config.unitas.jak.dotfiles.headless;
     };
 
     hardware = {
@@ -59,6 +59,7 @@ in
       networkmanager.enable = true;
     };
     nix = {
+      trustedUsers = [ "jak" "hydra-queue-runner" ];
       # Automatically optimise the Nix store.
       autoOptimiseStore = true;
       # Enable serving packages over SSH when authenticated by the same keys as 'jak'.
