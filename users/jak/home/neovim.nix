@@ -90,7 +90,7 @@ in
        let g:ale_linters = {
        \   'json': [ 'jq' ],
        \   'sh': [ 'shell', 'shellcheck' ],
-       \   'nix': [ 'nixpkgs-fmt', 'remove_trailing_lines', 'trim_whitespace' ]
+       \   'nix': [ 'nixpkgs-fmt', 'remove_trailing_lines', 'trim_whitespace' ],
        \   'vim': [ 'vint' ],
        \   'zsh': [ 'shell', 'shellcheck' ],
        \ }
