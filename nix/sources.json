@@ -479,6 +479,18 @@
         "url": "https://github.com/simnalamburt/vim-mundo/archive/43c4fb3fd40e5eaf2476eb88ef983eb56789c522.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "vim-nix": {
+        "branch": "master",
+        "description": "Vim configuration files for Nix http://nixos.org/nix",
+        "homepage": null,
+        "owner": "LnL7",
+        "repo": "vim-nix",
+        "rev": "a3eed01f4de995a51dfdd06287e44fcb231f6adf",
+        "sha256": "0pwdfwws1dj3705m00ghw3dvym5zbm00bfsj023gmbp6vr8wn6yi",
+        "type": "tarball",
+        "url": "https://github.com/LnL7/vim-nix/archive/a3eed01f4de995a51dfdd06287e44fcb231f6adf.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "vim-numbertoggle": {
         "branch": "master",
         "description": "Toggles between hybrid and absolute line numbers automatically",
