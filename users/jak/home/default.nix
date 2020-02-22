@@ -25,7 +25,7 @@
     ./rofi.nix
 #    ./starship.nix
     ./sxhkd.nix
-#    ./taskwarrior.nix
+    ./taskwarrior.nix
     ./termite.nix
     ./tmux.nix
     ./xsession.nix

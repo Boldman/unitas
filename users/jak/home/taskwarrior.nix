@@ -5,8 +5,10 @@
 {
 
 
+  home.packages = with pkgs; [ python38Packages.bugwarrior vit task-open ];
   programs.taskwarrior = {
     enable = true;
+  };
 
 
 }
