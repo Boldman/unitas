@@ -3,7 +3,14 @@
 # This file contains the configuration for info.
 
 {
-  home.packages = with pkgs; [ python38Packages.bugwarrior timewarrior tasknc tasksh taskopen vit ];
+  home.packages = with pkgs; [
+    # python38Packages.bugwarrior
+    timewarrior
+    tasknc
+    tasksh
+    taskopen
+    vit
+  ];
   programs.taskwarrior = {
     enable = true;
   };
