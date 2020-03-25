@@ -8,8 +8,11 @@
   };
 
   system = {
-    stateVersion = "19.09";
-    autoUpgrade.channel = "https://nixos.org/channels/nixos-19.09";
+    stateVersion = "20.03";
+    autoUpgrade = {
+      enable = true;
+      channel = "https://nixos.org/channels/nixos-20.03";
+    };
   };
   nix.maxJobs = lib.mkDefault 16;
   powerManagement.cpuFreqGovernor = lib.mkDefault "performance";

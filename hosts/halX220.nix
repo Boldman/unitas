@@ -7,8 +7,11 @@
     hostId = "44825cad";
   };
   system = {
-    stateVersion = "19.09";
-    autoUpgrade.channel = "https://nixos.org/channels/nixos-unstable";
+    stateVersion = "20.03";
+    autoUpgrade = {
+      enable = true;
+      channel = "https://nixos.org/channels/nixos-unstable";
+    };
   };
   nix.maxJobs = lib.mkDefault 1;
   powerManagement.cpuFreqGovernor = lib.mkDefault "powersave";
