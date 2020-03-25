@@ -30,10 +30,9 @@ in
         package = pkgs.pulseaudioFull;
       };
     };
-    i18n = {
-      consoleFont = "Lat2-Terminus16";
-      consoleKeyMap = "us";
-      defaultLocale = "en_US.UTF-8";
+    console = {
+      font = "Lat2-Terminus16";
+      keyMap = "us";
     };
 
     imports = with sources; [
