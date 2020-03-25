@@ -4,7 +4,7 @@
 
 {
   # Set the `stateVersion` for home-manager.
-  home.stateVersion = "19.03";
+  home.stateVersion = "19.09";
 
   # Let home-manager manage itself when not using home-manager as a NixOS module.
   programs.home-manager.enable = config.unitas.jak.dotfiles.isNonNixOS;
