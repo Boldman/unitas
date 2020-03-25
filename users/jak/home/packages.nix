@@ -160,7 +160,6 @@ in
       # Multiple-service messaging app
       # unstable.franz
       # Mozilla Firefox
-      firefox
       # Remmina is a remote desktop client written in GTK+
       remmina
       # Create simple animated gifs
