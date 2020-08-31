@@ -8,6 +8,10 @@
 
   firefox.enableGnomeExtensions = true;
 
+  permittedInsecurePackages = [
+    "openssl-1.0.2u"
+  ];
+
 }
 
 # vim:filetype=nix:foldmethod=marker:foldlevel=0:ts=2:sts=2:sw=2:nowrap

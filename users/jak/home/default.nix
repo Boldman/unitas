@@ -6,6 +6,7 @@
     ./compton.nix
     ./direnv.nix
     ./dunst.nix
+    ./emacs.nix
     ./firefox.nix
     ./fish.nix
     ./fzf.nix
@@ -13,10 +14,9 @@
     ./home-manager.nix
     ./htop.nix
     ./i3.nix
-#	./kakoune.nix
     ./language.nix
     ./less.nix
-#    ./lorri.nix
+    ./lorri.nix
     ./mpd.nix
     ./mpv.nix
     ./neovim.nix
